@@ -1,0 +1,532 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Masuya
+</name>
+</assembly>
+<members>
+<member name="T:Aplication_Helper.DataSet2.DataTable1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Aplication_Helper.DataSet2.DataTable2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Aplication_Helper.DataSet2.ViewPO2017DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Aplication_Helper.DataSet2.DataTable1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Aplication_Helper.DataSet2.DataTable2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Aplication_Helper.DataSet2.ViewPO2017Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Aplication_Helper.DataSet2.DataTable1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Aplication_Helper.DataSet2.DataTable2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Aplication_Helper.DataSet2.ViewPO2017RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Aplication_Helper.DataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Aplication_Helper.DataSet2TableAdapters.DataTable1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Aplication_Helper.DataSet2TableAdapters.DataTable2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Aplication_Helper.DataSet2TableAdapters.ViewPO2017TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Aplication_Helper.DataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Aplication_Helper.DataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Aplication_Helper.DataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Aplication_Helper.DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Aplication_Helper.DataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Aplication_Helper.DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Aplication_Helper.DataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Aplication_Helper.DataSet2TableAdapters.TableAdapterManager.UpdateAll(Aplication_Helper.DataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Aplication_Helper.DataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Aplication_Helper.DataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Aplication_Helper.DataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Aplication_Helper.DataSetSO.DataTable1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Aplication_Helper.DataSetSO.DataTable1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Aplication_Helper.DataSetSO.DataTable1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Aplication_Helper.DataSetSO">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Aplication_Helper.DataSetSOTableAdapters.DataTable1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Aplication_Helper.DataSetSOTableAdapters.TableAdapterManager.UpdateUpdatedRows(Aplication_Helper.DataSetSO,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Aplication_Helper.DataSetSOTableAdapters.TableAdapterManager.UpdateInsertedRows(Aplication_Helper.DataSetSO,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Aplication_Helper.DataSetSOTableAdapters.TableAdapterManager.UpdateDeletedRows(Aplication_Helper.DataSetSO,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Aplication_Helper.DataSetSOTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Aplication_Helper.DataSetSOTableAdapters.TableAdapterManager.UpdateAll(Aplication_Helper.DataSetSO)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Aplication_Helper.DataSetSOTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Aplication_Helper.DataSetSOTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Aplication_Helper.DataSetSOTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Aplication_Helper.DataSet4.TblExpanseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Aplication_Helper.DataSet4.TblExpanseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Aplication_Helper.DataSet4.TblExpanseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Aplication_Helper.DataSet4">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Aplication_Helper.DataSet4TableAdapters.TblExpanseTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Aplication_Helper.DataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(Aplication_Helper.DataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Aplication_Helper.DataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(Aplication_Helper.DataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Aplication_Helper.DataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(Aplication_Helper.DataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Aplication_Helper.DataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Aplication_Helper.DataSet4TableAdapters.TableAdapterManager.UpdateAll(Aplication_Helper.DataSet4)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Aplication_Helper.DataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Aplication_Helper.DataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Aplication_Helper.DataSet4TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Aplication_Helper.DataSet1.DataTable1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Aplication_Helper.DataSet1.tblTagihDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Aplication_Helper.DataSet1.LapPengembalianBarangDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Aplication_Helper.DataSet1.DataTable1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Aplication_Helper.DataSet1.tblTagihRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Aplication_Helper.DataSet1.LapPengembalianBarangRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Aplication_Helper.DataSet1.DataTable1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Aplication_Helper.DataSet1.tblTagihRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Aplication_Helper.DataSet1.LapPengembalianBarangRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Aplication_Helper.DataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Aplication_Helper.DataSet1TableAdapters.DataTable1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Aplication_Helper.DataSet1TableAdapters.tblTagihTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Aplication_Helper.DataSet1TableAdapters.LapPengembalianBarangTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Aplication_Helper.DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Aplication_Helper.DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Aplication_Helper.DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Aplication_Helper.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Aplication_Helper.DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Aplication_Helper.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Aplication_Helper.DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Aplication_Helper.DataSet1TableAdapters.TableAdapterManager.UpdateAll(Aplication_Helper.DataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Aplication_Helper.DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Aplication_Helper.DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Aplication_Helper.DataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.airplane_mode_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.arrow_small_left">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.at_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.Axialis_Icon_Workshop_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.back">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.calendar_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.completed_stamp_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.computer">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.credit_card">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.cross">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.Customer_service_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.delete">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.diskette">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.dollar_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.dollar_icon1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.done_1779319_1512595">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.exchange">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.Fraud_bukalapak">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.IMG_5928">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.IMG_59281">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.Lock_Icon_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.Lock_Icon_256">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.LOGOMASUYA">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.LOGOMASUYA2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.Numbers_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.Open_Lock_Icon_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.Other_Internet_Other_color_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.plus">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.print">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.red_rejected_stamp_1_1024x854">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.refresh">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.Truck_Transportation_512">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Aplication_Helper.My.Resources.Resources.warehouse_inventory_icon_6">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Aplication_Helper.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:Aplication_Helper.DataSet3.DataTable1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Aplication_Helper.DataSet3.DataTable1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Aplication_Helper.DataSet3.DataTable1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Aplication_Helper.DataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Aplication_Helper.DataSet3TableAdapters.DataTable1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Aplication_Helper.DataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Aplication_Helper.DataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Aplication_Helper.DataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(Aplication_Helper.DataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Aplication_Helper.DataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(Aplication_Helper.DataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Aplication_Helper.DataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Aplication_Helper.DataSet3TableAdapters.TableAdapterManager.UpdateAll(Aplication_Helper.DataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Aplication_Helper.DataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Aplication_Helper.DataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Aplication_Helper.DataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Aplication_Helper.DbLocalDataSet.TblLoginDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Aplication_Helper.DbLocalDataSet.TblLoginRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Aplication_Helper.DbLocalDataSet.TblLoginRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Aplication_Helper.DbLocalDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Aplication_Helper.DbLocalDataSetTableAdapters.TblLoginTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Aplication_Helper.DbLocalDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Aplication_Helper.DbLocalDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Aplication_Helper.DbLocalDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Aplication_Helper.DbLocalDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Aplication_Helper.DbLocalDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Aplication_Helper.DbLocalDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Aplication_Helper.DbLocalDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Aplication_Helper.DbLocalDataSetTableAdapters.TableAdapterManager.UpdateAll(Aplication_Helper.DbLocalDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Aplication_Helper.DbLocalDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Aplication_Helper.DbLocalDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Aplication_Helper.DbLocalDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,423 @@
+D:\Ridwan\Aplikasi masuya\Aplication Helper\bin\Debug\Aplication Helper.exe
+D:\Ridwan\Aplikasi masuya\Aplication Helper\bin\Debug\Aplication Helper.pdb
+D:\Ridwan\Aplikasi masuya\Aplication Helper\bin\Debug\Aplication Helper.xml
+D:\Ridwan\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication_Helper.Resources.resources
+D:\Ridwan\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication Helper.vbproj.GenerateResource.Cache
+D:\Ridwan\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication Helper.exe
+D:\Ridwan\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication Helper.xml
+D:\Ridwan\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication Helper.pdb
+D:\Ridwan\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmUtama.resources
+D:\Ridwan\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmFRS.resources
+D:\Ridwan\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSVP.resources
+E:\User\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmUtama.resources
+E:\User\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSVP.resources
+E:\User\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication_Helper.Resources.resources
+E:\User\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication Helper.vbproj.GenerateResource.Cache
+E:\User\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmRequest.resources
+E:\User\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication Helper.vbprojResolveAssemblyReference.cache
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication Helper.vbprojResolveAssemblyReference.cache
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmUtama.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmRequest.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSVP.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication_Helper.Resources.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication Helper.vbproj.GenerateResource.Cache
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmStatus.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\bin\Debug\Aplication Helper.exe.manifest
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\bin\Debug\Aplication Helper.application
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\bin\Debug\Aplication Helper.exe
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\bin\Debug\Aplication Helper.pdb
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\bin\Debug\Aplication Helper.xml
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication Helper.exe.manifest
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication Helper.application
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication Helper.exe
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication Helper.xml
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication Helper.pdb
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmHistoryReq.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmBukaHarga.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmTax.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmLaporan.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmStock.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmTagih.resources
+E:\User\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmBukaHarga.resources
+E:\User\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmHistoryReq.resources
+E:\User\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmLaporan.resources
+E:\User\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmStatus.resources
+E:\User\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmStock.resources
+E:\User\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmTagih.resources
+E:\User\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmTax.resources
+E:\User\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\bin\Debug\Masuya.exe.manifest
+E:\User\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\bin\Debug\Masuya.application
+E:\User\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\bin\Debug\Masuya.exe
+E:\User\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\bin\Debug\Masuya.pdb
+E:\User\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\bin\Debug\Masuya.xml
+E:\User\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Masuya.exe.manifest
+E:\User\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Masuya.application
+E:\User\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Masuya.exe
+E:\User\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Masuya.xml
+E:\User\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Debug\Masuya.pdb
+D:\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Masuya.exe
+D:\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Masuya.xml
+D:\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Masuya.pdb
+D:\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\bin\Debug\Masuya.exe.manifest
+D:\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\bin\Debug\Masuya.application
+D:\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\bin\Debug\Masuya.exe
+D:\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\bin\Debug\Masuya.pdb
+D:\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\bin\Debug\Masuya.xml
+D:\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication Helper.vbprojResolveAssemblyReference.cache
+D:\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmUtama.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmBukaHarga.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmHistoryReq.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmLaporan.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmStatus.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmRequest.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmStock.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSVP.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmTagih.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmTax.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.Resources.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication Helper.vbproj.GenerateResource.Cache
+D:\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Masuya.exe.manifest
+D:\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Masuya.application
+D:\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSales.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSalesView.resources
+C:\Users\MABORA\Downloads\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Masuya.exe
+C:\Users\MABORA\Downloads\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Masuya.xml
+C:\Users\MABORA\Downloads\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Masuya.pdb
+C:\Users\MABORA\Downloads\Aplikasi masuya OK\Aplication Helper\bin\Debug\Masuya.exe.manifest
+C:\Users\MABORA\Downloads\Aplikasi masuya OK\Aplication Helper\bin\Debug\Masuya.application
+C:\Users\MABORA\Downloads\Aplikasi masuya OK\Aplication Helper\bin\Debug\Masuya.exe
+C:\Users\MABORA\Downloads\Aplikasi masuya OK\Aplication Helper\bin\Debug\Masuya.pdb
+C:\Users\MABORA\Downloads\Aplikasi masuya OK\Aplication Helper\bin\Debug\Masuya.xml
+C:\Users\MABORA\Downloads\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication Helper.vbprojResolveAssemblyReference.cache
+C:\Users\MABORA\Downloads\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmAccount.resources
+C:\Users\MABORA\Downloads\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmUtama.resources
+C:\Users\MABORA\Downloads\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmBukaHarga.resources
+C:\Users\MABORA\Downloads\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmHistoryReq.resources
+C:\Users\MABORA\Downloads\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmLaporan.resources
+C:\Users\MABORA\Downloads\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSales.resources
+C:\Users\MABORA\Downloads\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSalesView.resources
+C:\Users\MABORA\Downloads\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmStatus.resources
+C:\Users\MABORA\Downloads\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmRequest.resources
+C:\Users\MABORA\Downloads\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmStock.resources
+C:\Users\MABORA\Downloads\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSVP.resources
+C:\Users\MABORA\Downloads\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmTagih.resources
+C:\Users\MABORA\Downloads\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmTax.resources
+C:\Users\MABORA\Downloads\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.Resources.resources
+C:\Users\MABORA\Downloads\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication Helper.vbproj.GenerateResource.Cache
+C:\Users\MABORA\Downloads\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Masuya.exe.manifest
+C:\Users\MABORA\Downloads\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Masuya.application
+F:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Masuya.exe
+F:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Masuya.xml
+F:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Masuya.pdb
+F:\My Project\Program\Aplikasi masuya OK\Aplication Helper\bin\Debug\Masuya.exe.manifest
+F:\My Project\Program\Aplikasi masuya OK\Aplication Helper\bin\Debug\Masuya.application
+F:\My Project\Program\Aplikasi masuya OK\Aplication Helper\bin\Debug\Masuya.exe
+F:\My Project\Program\Aplikasi masuya OK\Aplication Helper\bin\Debug\Masuya.pdb
+F:\My Project\Program\Aplikasi masuya OK\Aplication Helper\bin\Debug\Masuya.xml
+F:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication Helper.vbprojResolveAssemblyReference.cache
+F:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmAccount.resources
+F:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmUtama.resources
+F:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmBukaHarga.resources
+F:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmHistoryReq.resources
+F:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmLaporan.resources
+F:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSales.resources
+F:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSalesView.resources
+F:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmStatus.resources
+F:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmRequest.resources
+F:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmStock.resources
+F:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSVP.resources
+F:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmTagih.resources
+F:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmTax.resources
+F:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.Resources.resources
+F:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication Helper.vbproj.GenerateResource.Cache
+F:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Masuya.exe.manifest
+F:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Masuya.application
+J:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Masuya.exe
+J:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Masuya.xml
+J:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Masuya.pdb
+J:\My Project\Program\Aplikasi masuya OK\Aplication Helper\bin\Debug\Masuya.exe.manifest
+J:\My Project\Program\Aplikasi masuya OK\Aplication Helper\bin\Debug\Masuya.application
+J:\My Project\Program\Aplikasi masuya OK\Aplication Helper\bin\Debug\Masuya.exe
+J:\My Project\Program\Aplikasi masuya OK\Aplication Helper\bin\Debug\Masuya.pdb
+J:\My Project\Program\Aplikasi masuya OK\Aplication Helper\bin\Debug\Masuya.xml
+J:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication Helper.vbprojResolveAssemblyReference.cache
+J:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmAccount.resources
+J:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmUtama.resources
+J:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmBukaHarga.resources
+J:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmHistoryReq.resources
+J:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmLaporan.resources
+J:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSales.resources
+J:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSalesView.resources
+J:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmStatus.resources
+J:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmRequest.resources
+J:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmStock.resources
+J:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSVP.resources
+J:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmTagih.resources
+J:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmTax.resources
+J:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.Resources.resources
+J:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication Helper.vbproj.GenerateResource.Cache
+J:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Masuya.exe.manifest
+J:\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Masuya.application
+E:\User\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Masuya.exe
+E:\User\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Masuya.xml
+E:\User\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Masuya.pdb
+E:\User\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\bin\Debug\Masuya.exe.manifest
+E:\User\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\bin\Debug\Masuya.application
+E:\User\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\bin\Debug\Masuya.exe
+E:\User\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\bin\Debug\Masuya.pdb
+E:\User\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\bin\Debug\Masuya.xml
+E:\User\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication Helper.vbprojResolveAssemblyReference.cache
+E:\User\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmAccount.resources
+E:\User\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmUtama.resources
+E:\User\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmBukaHarga.resources
+E:\User\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmHistoryReq.resources
+E:\User\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmLaporan.resources
+E:\User\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSales.resources
+E:\User\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSalesView.resources
+E:\User\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmStatus.resources
+E:\User\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmRequest.resources
+E:\User\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmStock.resources
+E:\User\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSVP.resources
+E:\User\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmTagih.resources
+E:\User\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmTax.resources
+E:\User\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication_Helper.Resources.resources
+E:\User\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Aplication Helper.vbproj.GenerateResource.Cache
+E:\User\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Masuya.exe.manifest
+E:\User\Ridwan\My Project\Program\Aplikasi masuya OK\Aplication Helper\obj\x86\Debug\Masuya.application
+F:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Masuya.exe
+F:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Masuya.xml
+F:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Masuya.pdb
+F:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\bin\Debug\Masuya.exe.manifest
+F:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\bin\Debug\Masuya.application
+F:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\bin\Debug\Masuya.exe
+F:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\bin\Debug\Masuya.pdb
+F:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\bin\Debug\Masuya.xml
+F:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication Helper.vbprojResolveAssemblyReference.cache
+F:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmAccount.resources
+F:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmUtama.resources
+F:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmBukaHarga.resources
+F:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmHistoryReq.resources
+F:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmLaporan.resources
+F:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSales.resources
+F:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSalesView.resources
+F:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmStatus.resources
+F:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmRequest.resources
+F:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmStock.resources
+F:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSVP.resources
+F:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmTagih.resources
+F:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmTax.resources
+F:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.Resources.resources
+F:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication Helper.vbproj.GenerateResource.Cache
+F:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Masuya.exe.manifest
+F:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Masuya.application
+J:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Masuya.exe
+J:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Masuya.xml
+J:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Masuya.pdb
+J:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\bin\Debug\Masuya.exe.manifest
+J:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\bin\Debug\Masuya.application
+J:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\bin\Debug\Masuya.exe
+J:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\bin\Debug\Masuya.pdb
+J:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\bin\Debug\Masuya.xml
+J:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication Helper.vbprojResolveAssemblyReference.cache
+J:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmAccount.resources
+J:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmUtama.resources
+J:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmBukaHarga.resources
+J:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmHistoryReq.resources
+J:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmKembali.resources
+J:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmLaporan.resources
+J:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSales.resources
+J:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSalesView.resources
+J:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmStatus.resources
+J:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmRequest.resources
+J:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmStock.resources
+J:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSVP.resources
+J:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmTagih.resources
+J:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmTax.resources
+J:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.Resources.resources
+J:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication Helper.vbproj.GenerateResource.Cache
+J:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Masuya.exe.manifest
+J:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Masuya.application
+J:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\bin\Debug\Masuya.exe.config
+E:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\bin\Debug\Masuya.exe.config
+E:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Masuya.exe
+E:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Masuya.xml
+E:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Masuya.pdb
+E:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\bin\Debug\Masuya.exe.manifest
+E:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\bin\Debug\Masuya.application
+E:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\bin\Debug\Masuya.exe
+E:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication Helper.vbprojResolveAssemblyReference.cache
+E:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmAccount.resources
+E:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmUtama.resources
+E:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmBukaHarga.resources
+E:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmHistoryReq.resources
+E:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmKembali.resources
+E:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmLaporan.resources
+E:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSales.resources
+E:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSalesView.resources
+E:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmStatus.resources
+E:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmRequest.resources
+E:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmStock.resources
+E:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSVP.resources
+E:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmTagih.resources
+E:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmTax.resources
+E:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication_Helper.Resources.resources
+E:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Aplication Helper.vbproj.GenerateResource.Cache
+E:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Masuya.exe.manifest
+E:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\obj\x86\Debug\Masuya.application
+E:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\bin\Debug\Masuya.pdb
+E:\My Project\Program\Aplikasi masuya Finish\Aplication Helper\bin\Debug\Masuya.xml
+F:\User\Ridwan\My Project\Program\Aplikasi masuya ON HDD\Aplication Helper\bin\Debug\Masuya.exe.config
+F:\User\Ridwan\My Project\Program\Aplikasi masuya ON HDD\Aplication Helper\obj\x86\Debug\Masuya.exe
+F:\User\Ridwan\My Project\Program\Aplikasi masuya ON HDD\Aplication Helper\obj\x86\Debug\Masuya.xml
+F:\User\Ridwan\My Project\Program\Aplikasi masuya ON HDD\Aplication Helper\obj\x86\Debug\Masuya.pdb
+F:\User\Ridwan\My Project\Program\Aplikasi masuya ON HDD\Aplication Helper\bin\Debug\Masuya.exe.manifest
+F:\User\Ridwan\My Project\Program\Aplikasi masuya ON HDD\Aplication Helper\bin\Debug\Masuya.application
+F:\User\Ridwan\My Project\Program\Aplikasi masuya ON HDD\Aplication Helper\bin\Debug\Masuya.exe
+F:\User\Ridwan\My Project\Program\Aplikasi masuya ON HDD\Aplication Helper\bin\Debug\Masuya.pdb
+F:\User\Ridwan\My Project\Program\Aplikasi masuya ON HDD\Aplication Helper\bin\Debug\Masuya.xml
+F:\User\Ridwan\My Project\Program\Aplikasi masuya ON HDD\Aplication Helper\obj\x86\Debug\Aplication Helper.vbprojResolveAssemblyReference.cache
+F:\User\Ridwan\My Project\Program\Aplikasi masuya ON HDD\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmAccount.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya ON HDD\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmUtama.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya ON HDD\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmBukaHarga.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya ON HDD\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmHistoryReq.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya ON HDD\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmKembali.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya ON HDD\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmLaporan.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya ON HDD\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSales.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya ON HDD\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSalesView.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya ON HDD\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmStatus.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya ON HDD\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmRequest.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya ON HDD\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmStock.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya ON HDD\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSVP.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya ON HDD\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmTagih.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya ON HDD\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmTax.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya ON HDD\Aplication Helper\obj\x86\Debug\Aplication_Helper.Resources.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya ON HDD\Aplication Helper\obj\x86\Debug\Aplication Helper.vbproj.GenerateResource.Cache
+F:\User\Ridwan\My Project\Program\Aplikasi masuya ON HDD\Aplication Helper\obj\x86\Debug\Masuya.exe.manifest
+F:\User\Ridwan\My Project\Program\Aplikasi masuya ON HDD\Aplication Helper\obj\x86\Debug\Masuya.application
+F:\My Project\Program\Aplikasi masuya Update\Aplication Helper\bin\Debug\Masuya.exe.config
+F:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Masuya.exe
+F:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Masuya.xml
+F:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Masuya.pdb
+F:\My Project\Program\Aplikasi masuya Update\Aplication Helper\bin\Debug\Masuya.exe.manifest
+F:\My Project\Program\Aplikasi masuya Update\Aplication Helper\bin\Debug\Masuya.application
+F:\My Project\Program\Aplikasi masuya Update\Aplication Helper\bin\Debug\Masuya.exe
+F:\My Project\Program\Aplikasi masuya Update\Aplication Helper\bin\Debug\Masuya.pdb
+F:\My Project\Program\Aplikasi masuya Update\Aplication Helper\bin\Debug\Masuya.xml
+F:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication Helper.vbprojResolveAssemblyReference.cache
+F:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmAccount.resources
+F:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmUtama.resources
+F:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmBukaHarga.resources
+F:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmHistoryReq.resources
+F:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmKembali.resources
+F:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmLaporan.resources
+F:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSales.resources
+F:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSalesView.resources
+F:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmStatus.resources
+F:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmRequest.resources
+F:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmStock.resources
+F:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSVP.resources
+F:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmTagih.resources
+F:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmTax.resources
+F:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.Resources.resources
+F:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication Helper.vbproj.GenerateResource.Cache
+F:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Masuya.exe.manifest
+F:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Masuya.application
+F:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmHistoryKembali.resources
+E:\My Project\Program\Aplikasi masuya Update\Aplication Helper\bin\Debug\Masuya.exe.config
+E:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Masuya.exe
+E:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Masuya.xml
+E:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Masuya.pdb
+E:\My Project\Program\Aplikasi masuya Update\Aplication Helper\bin\Debug\Masuya.exe.manifest
+E:\My Project\Program\Aplikasi masuya Update\Aplication Helper\bin\Debug\Masuya.application
+E:\My Project\Program\Aplikasi masuya Update\Aplication Helper\bin\Debug\Masuya.exe
+E:\My Project\Program\Aplikasi masuya Update\Aplication Helper\bin\Debug\Masuya.pdb
+E:\My Project\Program\Aplikasi masuya Update\Aplication Helper\bin\Debug\Masuya.xml
+E:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication Helper.vbprojResolveAssemblyReference.cache
+E:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmAccount.resources
+E:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmUtama.resources
+E:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmBukaHarga.resources
+E:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmHistoryKembali.resources
+E:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmHistoryReq.resources
+E:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmKembali.resources
+E:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmLaporan.resources
+E:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSales.resources
+E:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSalesView.resources
+E:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmStatus.resources
+E:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmRequest.resources
+E:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmStock.resources
+E:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSVP.resources
+E:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmTagih.resources
+E:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmTax.resources
+E:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.Resources.resources
+E:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication Helper.vbproj.GenerateResource.Cache
+E:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Masuya.exe.manifest
+E:\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Masuya.application
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\bin\Debug\Masuya.exe.config
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Masuya.exe
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Masuya.xml
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Masuya.pdb
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\bin\Debug\Masuya.exe.manifest
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\bin\Debug\Masuya.application
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\bin\Debug\Masuya.exe
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmAccount.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmUtama.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmBukaHarga.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmHistoryKembali.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmHistoryReq.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmKembali.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmLaporan.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSales.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSalesView.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmStatus.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmRequest.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmStock.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSVP.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmTagih.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmTax.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.Resources.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication Helper.vbproj.GenerateResource.Cache
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Masuya.exe.manifest
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Masuya.application
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\bin\Debug\Masuya.pdb
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\bin\Debug\Masuya.xml
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\bin\Debug\Masuya.exe.config
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication Helper.vbproj.ResolveComReference.cache
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Masuya.exe
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Masuya.xml
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Masuya.pdb
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\bin\Debug\Masuya.exe.manifest
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\bin\Debug\Masuya.application
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\bin\Debug\Masuya.exe
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\bin\Debug\Masuya.pdb
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\bin\Debug\Masuya.xml
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication Helper.vbprojResolveAssemblyReference.cache
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmAccount.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmReport.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmUtama.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmBukaHarga.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmHistoryKembali.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmHistoryReq.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmKartuStock.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmKembali.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmLaporan.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmPrintPO.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmRecordKartu.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSales.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSalesView.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmStatus.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmRequest.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmStock.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmSVP.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmTagih.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmTax.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.Resources.resources
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication Helper.vbproj.GenerateResource.Cache
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Masuya.exe.manifest
+F:\User\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Masuya.application
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication Helper.vbproj.ResolveComReference.cache
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication Helper.vbprojResolveAssemblyReference.cache
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmReport.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmKartuStock.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmKedatangan.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmPrintPO.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya Update\Aplication Helper\obj\x86\Debug\Aplication_Helper.FrmRecordKartu.resources

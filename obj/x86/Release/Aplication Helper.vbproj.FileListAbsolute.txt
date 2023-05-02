@@ -1,0 +1,16 @@
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Release\Aplication_Helper.FrmUtama.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Release\Aplication_Helper.FrmRequest.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Release\Aplication_Helper.FrmSVP.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Release\Aplication_Helper.Resources.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Release\Aplication Helper.vbproj.GenerateResource.Cache
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Release\Aplication_Helper.FrmStatus.resources
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\bin\Release\Masuya FRS.exe.manifest
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\bin\Release\Masuya FRS.application
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\bin\Release\Masuya FRS.exe
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\bin\Release\Masuya FRS.pdb
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\bin\Release\Masuya FRS.xml
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Release\Masuya FRS.exe.manifest
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Release\Masuya FRS.application
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Release\Masuya FRS.exe
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Release\Masuya FRS.xml
+D:\Ridwan\My Project\Program\Aplikasi masuya\Aplication Helper\obj\x86\Release\Masuya FRS.pdb
