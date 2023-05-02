@@ -48,7 +48,7 @@ Public Class FrmExportTax
         Dim baris As Integer
         If e.KeyCode = Keys.Enter Then
             Try
-                Tabel = Proses.ExecuteQuery("Select TblFak.Tgl,TblFak.Alm1,TblFak.Alm2,TblFak.Alm3, TblFak.NoFP, TblFak.TglFP,TblFak.KdCust,TblFak.ReceivedBy, tblCustomer.NoNpwp, TblFak.NmCust,tblCustomer.NmPkp, tblCustomer.Website, tblCustomer.AlmFP1,tblCustomer.AlmFP2, tblCustomer.AlmFP3, TblFak.Subtotal - TblFak.Discount AS DPP, TblFak.Discount, TblFak.Ppn, TblFak.NoBukti,MONTH(TblFak.TglFP) AS bulan, YEAR(TblFak.TglFP) AS tahun,MONTH(TblFak.Tgl) AS bulanJL,YEAR(TblFak.Tgl) AS tahunJL,TblFak.JnsJualTax,tblFak.StampPBBS FROM  TblFak INNER JOIN tblCustomer ON TblFak.KdCust = tblCustomer.KdCust where nobukti='" & txtNoBukti.Text & "'")
+                Tabel = Proses.ExecuteQuery("Select TblFak.Tgl,TblFak.Alm1,TblFak.Alm2,TblFak.Alm3, TblFak.NoFP, TblFak.TglFP,TblFak.KdCust,TblFak.ReceivedBy, tblCustomer.NoNpwp, TblFak.NmCust,tblCustomer.NmPkp, tblCustomer.NoKTP, tblCustomer.AlmFP1,tblCustomer.AlmFP2, tblCustomer.AlmFP3, TblFak.Subtotal - TblFak.Discount AS DPP, TblFak.Discount, TblFak.Ppn, TblFak.NoBukti,MONTH(TblFak.TglFP) AS bulan, YEAR(TblFak.TglFP) AS tahun,MONTH(TblFak.Tgl) AS bulanJL,YEAR(TblFak.Tgl) AS tahunJL,TblFak.JnsJualTax,tblFak.StampPBBS FROM  TblFak INNER JOIN tblCustomer ON TblFak.KdCust = tblCustomer.KdCust where nobukti='" & txtNoBukti.Text & "'")
                 If Tabel.Rows.Count = 0 Then
                     MsgBox("Nomor bukti tersebut tidak ditemukan", MsgBoxStyle.Exclamation, "Konfirmasi")
                     txtNoBukti.Focus()
@@ -91,7 +91,7 @@ Public Class FrmExportTax
                                     '//
 
                                 ElseIf Tabel.Rows(i)("NoNpwp") = "" Then
-                                    .Add(Tabel.Rows(i)("website") & "#NIK#NAMA#" & Tabel.Rows(i)("NmPkp")) '//Penggabungan No Refer KTP Customer teregister
+                                    .Add(Tabel.Rows(i)("NoKTP") & "#NIK#NAMA#" & Tabel.Rows(i)("NmPkp")) '//Penggabungan No Refer KTP Customer teregister
                                     .Add(Tabel.Rows(i)("NmPkp"))
                                     .Add(Tabel.Rows(i)("AlmFP1") & " " & Tabel.Rows(i)("AlmFP2") & " " & Tabel.Rows(i)("AlmFP3"))
                                 Else
@@ -212,7 +212,7 @@ Public Class FrmExportTax
         Dim baris As Integer
         For r As Integer = 0 To DGV.RowCount - 1
             Try
-                Tabel = Proses.ExecuteQuery("Select TblFak.Tgl,TblFak.Alm1,TblFak.Alm2,TblFak.Alm3, TblFak.NoFP, TblFak.TglFP,TblFak.KdCust,TblFak.ReceivedBy, tblCustomer.NoNpwp, TblFak.NmCust,tblCustomer.NmPkp, tblCustomer.Website, tblCustomer.AlmFP1,tblCustomer.AlmFP2, tblCustomer.AlmFP3, TblFak.Subtotal - TblFak.Discount AS DPP, TblFak.Discount, TblFak.Ppn, TblFak.NoBukti,MONTH(dbo.TblFak.TglFP) AS bulan, YEAR(dbo.TblFak.TglFP) AS tahun,MONTH(TblFak.Tgl) AS bulanJL,YEAR(TblFak.Tgl) AS tahunJL,TblFak.JnsJualTax,tblFak.StampPBBS FROM  TblFak INNER JOIN tblCustomer ON TblFak.KdCust = tblCustomer.KdCust where nobukti='" & DGV.Rows(r).Cells(0).Value & "'")
+                Tabel = Proses.ExecuteQuery("Select TblFak.Tgl,TblFak.Alm1,TblFak.Alm2,TblFak.Alm3, TblFak.NoFP, TblFak.TglFP,TblFak.KdCust,TblFak.ReceivedBy, tblCustomer.NoNpwp, TblFak.NmCust,tblCustomer.NmPkp, tblCustomer.NoKTP, tblCustomer.AlmFP1,tblCustomer.AlmFP2, tblCustomer.AlmFP3, TblFak.Subtotal - TblFak.Discount AS DPP, TblFak.Discount, TblFak.Ppn, TblFak.NoBukti,MONTH(dbo.TblFak.TglFP) AS bulan, YEAR(dbo.TblFak.TglFP) AS tahun,MONTH(TblFak.Tgl) AS bulanJL,YEAR(TblFak.Tgl) AS tahunJL,TblFak.JnsJualTax,tblFak.StampPBBS FROM  TblFak INNER JOIN tblCustomer ON TblFak.KdCust = tblCustomer.KdCust where nobukti='" & DGV.Rows(r).Cells(0).Value & "'")
                 If Tabel.Rows.Count = 0 Then
                     MsgBox("Data Nomor Transaksi= " & DGV.Rows(r).Cells(0).Value & " tidak ditemukan")
                     Me.DGV.Rows(r).DefaultCellStyle.BackColor = Color.Red
@@ -255,7 +255,7 @@ Public Class FrmExportTax
                                     End If
                                     '//
                                 ElseIf Tabel.Rows(i)("NoNpwp") = "" Then
-                                    .Add(Tabel.Rows(i)("website") & "#NIK#NAMA#" & Tabel.Rows(i)("NmPkp")) '//Penggabukan No Refer KTP Customer teregister
+                                    .Add(Tabel.Rows(i)("NoKTP") & "#NIK#NAMA#" & Tabel.Rows(i)("NmPkp")) '//Penggabukan No Refer KTP Customer teregister
                                     .Add(Tabel.Rows(i)("NmPkp"))
                                     .Add(Tabel.Rows(i)("AlmFP1") & " " & Tabel.Rows(i)("AlmFP2") & " " & Tabel.Rows(i)("AlmFP3"))
                                 Else

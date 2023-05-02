@@ -1603,3 +1603,77 @@ D:\My Project\Program\Mirror\Masuya APP Final - Bandung\Source Code Versi 30 sa 
 D:\My Project\Program\Mirror\Masuya APP Final - Bandung\Source Code Versi 30 sa password\obj\Debug\RdlCompile.compiled
 D:\My Project\Program\Mirror\Masuya APP Final - Bandung\Source Code Versi 30 sa password\obj\Debug\Masuya.exe.manifest
 D:\My Project\Program\Mirror\Masuya APP Final - Bandung\Source Code Versi 30 sa password\obj\Debug\Masuya.application
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\bin\Debug\Masuya.exe.config
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication Helper.vbproj.ResolveComReference.cache
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Masuya.exe
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Masuya.xml
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Masuya.pdb
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\bin\Debug\DbLocal.sdf
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\bin\Debug\Masuya.exe.manifest
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\bin\Debug\Masuya.application
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\bin\Debug\Masuya.exe
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\bin\Debug\Masuya.pdb
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\bin\Debug\Masuya.xml
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication Helper.vbprojResolveAssemblyReference.cache
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmAccount.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmReportExp.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmReportLPB.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmReportNotaRetBl.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmReportPO.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmReportTagih.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmReportNotaReture.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmReportSO.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmUtama.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmCariNotReture.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.frmExpense.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmExportTaxRB.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmExportTaxReture.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmHPP.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmIsiFPBL.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmListExpanse.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmNearED.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmNotRetBl.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmNotRet.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmRPB.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmSafetyStock.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmTagih.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmTimbang.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmSelKlaim.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmGP.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmKlaim.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmLaporanPrinciple.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmBukaHarga.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmDataSO.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmEstimasi.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmExportTax.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmExtendGudang.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmHisBeliNoFP.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmHisRetur.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmIsiNoFP.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmLabelValet.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmLaporanSales.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmLapReture.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmListKlaim.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmLostCust.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmPelunasanKlaim.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmRetur.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmSalesOrder.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmTraditional.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmCalpis.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmExtendLaporan.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmKedatangan.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmLaporan.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmPrintPO.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmSales.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmSalesView.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmRequest.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmStock.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmTax.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.FrmHisTagihan.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.SelectedTax.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication_Helper.Resources.resources
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Aplication Helper.vbproj.GenerateResource.Cache
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\RdlCompile.cache
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\RdlCompile.compiled
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Masuya.exe.manifest
+C:\Users\ADMIN\Documents\GitHub\MasuyaAPP\obj\Debug\Masuya.application
