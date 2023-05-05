@@ -31,7 +31,7 @@
     <ProductName>Masuya APP</ProductName>
     <PublisherName>EDP Bandung</PublisherName>
     <MinimumRequiredVersion>2.4.1.5</MinimumRequiredVersion>
-    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationRevision>1</ApplicationRevision>
     <ApplicationVersion>5.5.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
