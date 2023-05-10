@@ -108,10 +108,11 @@ Public Class FrmExportTax
                                         .Add(Int(Tabel.Rows(i)("DPP") * 0.11)) '//Jumlah PPN 11%
                                     End If
                                     .Add("0")
-                                    If Not IsDBNull(Tabel.Rows(i)("StampPBBS")) Then
+                                    If Not IsDBNull(Tabel.Rows(i)("StampPBBS")) And (Tabel.Rows(i)("StampPBBS")) <> "" Then
                                         .Add(Tabel.Rows(i)("StampPBBS"))
                                     Else
                                         .Add("Stempel Kosong")
+                                        ListView1.Items(baris).BackColor = Color.Yellow
                                     End If
                                     .Add("0")
                                     .Add("0")
@@ -272,10 +273,11 @@ Public Class FrmExportTax
                                         .Add(Int(Tabel.Rows(i)("DPP") * 0.11)) '//Jumlah PPN 11%
                                     End If
                                     .Add("0")
-                                    If Not IsDBNull(Tabel.Rows(i)("StampPBBS")) Then
+                                    If Not IsDBNull(Tabel.Rows(i)("StampPBBS")) And (Tabel.Rows(i)("StampPBBS")) <> "" Then
                                         .Add(Tabel.Rows(i)("StampPBBS"))
                                     Else
                                         .Add("Stempel Kosong")
+                                        ListView1.Items(baris).BackColor = Color.Yellow
                                     End If
                                     .Add("0")
                                     .Add("0")
