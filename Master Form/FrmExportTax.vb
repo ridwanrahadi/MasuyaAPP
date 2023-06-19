@@ -48,7 +48,7 @@ Public Class FrmExportTax
         Dim baris As Integer
         If e.KeyCode = Keys.Enter Then
             Try
-                Tabel = Proses.ExecuteQuery("Select TblFak.Tgl,TblFak.Alm1,TblFak.Alm2,TblFak.Alm3, TblFak.NoFP, TblFak.TglFP,TblFak.KdCust,TblFak.ReceivedBy, tblCustomer.NoNpwp, TblFak.NmCust,tblCustomer.NmPkp, tblCustomer.NoKTP, tblCustomer.AlmFP1,tblCustomer.AlmFP2, tblCustomer.AlmFP3, TblFak.Subtotal - TblFak.Discount AS DPP, TblFak.Discount, TblFak.Ppn, TblFak.NoBukti,MONTH(TblFak.TglFP) AS bulan, YEAR(TblFak.TglFP) AS tahun,MONTH(TblFak.Tgl) AS bulanJL,YEAR(TblFak.Tgl) AS tahunJL,TblFak.JnsJualTax,tblFak.StampPBBS FROM  TblFak INNER JOIN tblCustomer ON TblFak.KdCust = tblCustomer.KdCust where nobukti='" & txtNoBukti.Text & "'")
+                Tabel = Proses.ExecuteQuery("Select TblFak.Tgl,TblFak.Alm1,TblFak.Alm2,TblFak.Alm3, TblFak.NoFP, TblFak.TglFP,TblFak.KdCust,TblFak.ReceivedBy, tblCustomer.NoNpwp, TblFak.NmCust,tblCustomer.NmPkp, tblCustomer.NoKTP, tblCustomer.AlmFP1,tblCustomer.AlmFP2, tblCustomer.AlmFP3, tblCustomer.isNameEditable, TblFak.Subtotal - TblFak.Discount AS DPP, TblFak.Discount, TblFak.Ppn, TblFak.NoBukti,MONTH(TblFak.TglFP) AS bulan, YEAR(TblFak.TglFP) AS tahun,MONTH(TblFak.Tgl) AS bulanJL,YEAR(TblFak.Tgl) AS tahunJL,TblFak.JnsJualTax,tblFak.StampPBBS FROM  TblFak INNER JOIN tblCustomer ON TblFak.KdCust = tblCustomer.KdCust where nobukti='" & txtNoBukti.Text & "'")
                 If Tabel.Rows.Count = 0 Then
                     MsgBox("Nomor bukti tersebut tidak ditemukan", MsgBoxStyle.Exclamation, "Konfirmasi")
                     txtNoBukti.Focus()
@@ -80,7 +80,7 @@ Public Class FrmExportTax
                                 .Add((Format(tanggalfp, "dd/MM/yyyy")))
                                 .Add(Tabel.Rows(i)("NoNpwp"))
                                 '//Apabila cust tokuhai/walkin dan sample tampilkan nama customernya
-                                If Tabel.Rows(i)("KdCust") = "WALKIN" Or Tabel.Rows(i)("KdCust") = "SAMPLEMT" Or Tabel.Rows(i)("KdCust") = "SAMPLEFS" Or Tabel.Rows(i)("KdCust") = "SAMPLEGT" Or Tabel.Rows(i)("KdCust") = "SAMPLE" Or Tabel.Rows(i)("KdCust") = "TOKU" Or Tabel.Rows(i)("KdCust") = "BLIOL" Then
+                                If Tabel.Rows(i)("isNameEditable") = True Then
                                     .Add(Tabel.Rows(i)("ReceivedBy") & "#NIK#NAMA#" & Tabel.Rows(i)("NmCust")) '//Penggabungan No Refer KTP Customer TOKU
                                     .Add(Tabel.Rows(i)("NmCust"))
                                     .Add(Tabel.Rows(i)("Alm1") & " " & Tabel.Rows(i)("Alm2") & " " & Tabel.Rows(i)("Alm3"))
@@ -108,7 +108,7 @@ Public Class FrmExportTax
                                         .Add(Int(Tabel.Rows(i)("DPP") * 0.11)) '//Jumlah PPN 11%
                                     End If
                                     .Add("0")
-                                    If Not IsDBNull(Tabel.Rows(i)("StampPBBS")) And (Tabel.Rows(i)("StampPBBS")) <> "" Then
+                                    If Not IsDBNull(Tabel.Rows(i)("StampPBBS")) Then
                                         .Add(Tabel.Rows(i)("StampPBBS"))
                                     Else
                                         .Add("Stempel Kosong")
@@ -213,7 +213,7 @@ Public Class FrmExportTax
         Dim baris As Integer
         For r As Integer = 0 To DGV.RowCount - 1
             Try
-                Tabel = Proses.ExecuteQuery("Select TblFak.Tgl,TblFak.Alm1,TblFak.Alm2,TblFak.Alm3, TblFak.NoFP, TblFak.TglFP,TblFak.KdCust,TblFak.ReceivedBy, tblCustomer.NoNpwp, TblFak.NmCust,tblCustomer.NmPkp, tblCustomer.NoKTP, tblCustomer.AlmFP1,tblCustomer.AlmFP2, tblCustomer.AlmFP3, TblFak.Subtotal - TblFak.Discount AS DPP, TblFak.Discount, TblFak.Ppn, TblFak.NoBukti,MONTH(dbo.TblFak.TglFP) AS bulan, YEAR(dbo.TblFak.TglFP) AS tahun,MONTH(TblFak.Tgl) AS bulanJL,YEAR(TblFak.Tgl) AS tahunJL,TblFak.JnsJualTax,tblFak.StampPBBS FROM  TblFak INNER JOIN tblCustomer ON TblFak.KdCust = tblCustomer.KdCust where nobukti='" & DGV.Rows(r).Cells(0).Value & "'")
+                Tabel = Proses.ExecuteQuery("Select TblFak.Tgl,TblFak.Alm1,TblFak.Alm2,TblFak.Alm3, TblFak.NoFP, TblFak.TglFP,TblFak.KdCust,TblFak.ReceivedBy, tblCustomer.NoNpwp, TblFak.NmCust,tblCustomer.NmPkp, tblCustomer.NoKTP, tblCustomer.AlmFP1,tblCustomer.AlmFP2, tblCustomer.AlmFP3, tblCustomer.isNameEditable, TblFak.Subtotal - TblFak.Discount AS DPP, TblFak.Discount, TblFak.Ppn, TblFak.NoBukti,MONTH(dbo.TblFak.TglFP) AS bulan, YEAR(dbo.TblFak.TglFP) AS tahun,MONTH(TblFak.Tgl) AS bulanJL,YEAR(TblFak.Tgl) AS tahunJL,TblFak.JnsJualTax,tblFak.StampPBBS FROM  TblFak INNER JOIN tblCustomer ON TblFak.KdCust = tblCustomer.KdCust where nobukti='" & DGV.Rows(r).Cells(0).Value & "'")
                 If Tabel.Rows.Count = 0 Then
                     MsgBox("Data Nomor Transaksi= " & DGV.Rows(r).Cells(0).Value & " tidak ditemukan")
                     Me.DGV.Rows(r).DefaultCellStyle.BackColor = Color.Red
@@ -246,7 +246,7 @@ Public Class FrmExportTax
                                 .Add((Format(tanggalfp, "dd/MM/yyyy")))
                                 .Add(Tabel.Rows(i)("NoNpwp"))
                                 '//Apabila cust tokuhai/walkin dan sample tampilkan nama customernya
-                                If Tabel.Rows(i)("KdCust") = "WALKIN" Or Tabel.Rows(i)("KdCust") = "SAMPLEMT" Or Tabel.Rows(i)("KdCust") = "SAMPLEFS" Or Tabel.Rows(i)("KdCust") = "SAMPLEGT" Or Tabel.Rows(i)("KdCust") = "SAMPLE" Or Tabel.Rows(i)("KdCust") = "TOKU" Or Tabel.Rows(i)("KdCust") = "BLIOL" Then
+                                If Tabel.Rows(i)("isNameEditable") = True Then
                                     .Add(Tabel.Rows(i)("ReceivedBy") & "#NIK#NAMA#" & Tabel.Rows(i)("NmCust")) '//Penggabungan No Refer KTP Customer TOKU
                                     .Add(Tabel.Rows(i)("NmCust"))
                                     .Add(Tabel.Rows(i)("Alm1") & " " & Tabel.Rows(i)("Alm2") & " " & Tabel.Rows(i)("Alm3"))
@@ -273,7 +273,7 @@ Public Class FrmExportTax
                                         .Add(Int(Tabel.Rows(i)("DPP") * 0.11)) '//Jumlah PPN 11%
                                     End If
                                     .Add("0")
-                                    If Not IsDBNull(Tabel.Rows(i)("StampPBBS")) And (Tabel.Rows(i)("StampPBBS")) <> "" Then
+                                    If Not IsDBNull(Tabel.Rows(i)("StampPBBS")) Then
                                         .Add(Tabel.Rows(i)("StampPBBS"))
                                     Else
                                         .Add("Stempel Kosong")
