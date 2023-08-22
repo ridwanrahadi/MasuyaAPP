@@ -100,7 +100,7 @@ Public Class FrmExportTax
                                     .Add(Tabel.Rows(i)("AlmFP1") & " " & Tabel.Rows(i)("AlmFP2") & " " & Tabel.Rows(i)("AlmFP3"))
                                 End If
                                 '//
-                                .Add(Int(Tabel.Rows(i)("DPP")))
+                                .Add(Tabel.Rows(i)("DPP"))
                                 If typefp = "08" Then
                                     If (Tabel.Rows(i)("bulanJL")) < 4 And (Tabel.Rows(i)("tahunJL")) = 2022 Then
                                         .Add(Int(Tabel.Rows(i)("DPP") * 0.1)) '//Jumlah PPN 10%
@@ -144,13 +144,13 @@ Public Class FrmExportTax
                         With ListView1
                             .Items.Add("OF")
                             With .Items(.Items.Count - 1).SubItems
-                                Dim discount, hrgnet, ppn As Decimal
+                                Dim discount, jmlnet, ppn As Decimal
                                 discount = Tabel.Rows(i)("jumlah") * (Tabel.Rows(i)("PrsDisc1") / 100)
-                                hrgnet = Tabel.Rows(i)("jumlah") - discount
+                                jmlnet = Tabel.Rows(i)("jumlah") - discount
                                 If (Tabel.Rows(i)("bulan")) < 4 And (Tabel.Rows(i)("tahun")) = 2022 Then
-                                    ppn = Round(Val(hrgnet) * 0.1, 2)
+                                    ppn = Round(Val(jmlnet) * 0.1, 2)
                                 Else
-                                    ppn = Round(Val(hrgnet) * 0.11, 2)
+                                    ppn = Round(Val(jmlnet) * 0.11, 2)
                                 End If
                                 .Add("1" & Tabel.Rows(i)("kdbrg"))
                                 .Add(Tabel.Rows(i)("nmbrg"))
@@ -158,7 +158,7 @@ Public Class FrmExportTax
                                 .Add(Tabel.Rows(i)("qty"))
                                 .Add(Tabel.Rows(i)("jumlah"))
                                 .Add(discount) '// Jumlah Discount bawah
-                                .Add(hrgnet) '// Harga setelah discount
+                                .Add(jmlnet) '// Harga setelah discount
                                 .Add(ppn) '//ppn harga net
                                 .Add("Delete sebelum upload")
                                 .Add("0")
@@ -265,7 +265,7 @@ Public Class FrmExportTax
                                     .Add(Tabel.Rows(i)("AlmFP1") & " " & Tabel.Rows(i)("AlmFP2") & " " & Tabel.Rows(i)("AlmFP3"))
                                 End If
                                 '//
-                                .Add(Int(Tabel.Rows(i)("DPP")))
+                                .Add(Tabel.Rows(i)("DPP"))
                                 If typefp = "08" Then
                                     If (Tabel.Rows(i)("bulanJL")) < 4 And (Tabel.Rows(i)("tahunJL")) = 2022 Then
                                         .Add(Int(Tabel.Rows(i)("DPP") * 0.1)) '//Jumlah PPN 10%
@@ -312,13 +312,13 @@ Public Class FrmExportTax
                         With ListView1
                             .Items.Add("OF")
                             With .Items(.Items.Count - 1).SubItems
-                                Dim discount, hrgnet, ppn As Decimal
+                                Dim discount, jmlnet, ppn As Decimal
                                 discount = Tabel.Rows(i)("jumlah") * (Tabel.Rows(i)("PrsDisc1") / 100)
-                                hrgnet = Tabel.Rows(i)("jumlah") - discount
+                                jmlnet = Tabel.Rows(i)("jumlah") - discount
                                 If bulan < 4 And tahun = 2022 Then
-                                    ppn = Round(Val(hrgnet) * 0.1, 2)
+                                    ppn = Round(Val(jmlnet) * 0.1, 2)
                                 Else
-                                    ppn = Round(Val(hrgnet) * 0.11, 2)
+                                    ppn = Round(Val(jmlnet) * 0.11, 2)
                                 End If
                                 .Add("1" & Tabel.Rows(i)("kdbrg"))
                                 .Add(Tabel.Rows(i)("nmbrg"))
@@ -326,7 +326,7 @@ Public Class FrmExportTax
                                 .Add(Tabel.Rows(i)("qty"))
                                 .Add(Tabel.Rows(i)("jumlah"))
                                 .Add(discount) '// Jumlah Discount bawah
-                                .Add(hrgnet) '// Harga setelah discount
+                                .Add(jmlnet) '// Harga setelah discount
                                 .Add(ppn) '//ppn harga net
                                 .Add("Delete sebelum upload")
                                 .Add("0")
