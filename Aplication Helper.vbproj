@@ -17,7 +17,7 @@
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>D:\My Project\Program\Mirror\Masuya APP Final - Bandung\publish SA Password\</PublishUrl>
+    <PublishUrl>D:\Publish\Bandung\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -27,12 +27,11 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <UpdateUrl>\\192.168.0.223\Server\update\</UpdateUrl>
     <ProductName>Masuya APP</ProductName>
-    <PublisherName>EDP Bandung</PublisherName>
+    <PublisherName>Ridwan Rahadi</PublisherName>
     <MinimumRequiredVersion>2.4.1.5</MinimumRequiredVersion>
     <ApplicationRevision>1</ApplicationRevision>
-    <ApplicationVersion>5.5.0.%2a</ApplicationVersion>
+    <ApplicationVersion>5.6.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>

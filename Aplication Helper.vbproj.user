@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <PublishUrlHistory>D:\My Project\Program\Mirror\Masuya APP Final - Bandung\publish SA Password\|D:\My Project\Program\Masuya APP Final - Bandung\publish SA Password\|D:\My Project\Program\Masuya APP Final - Bandung\publish\|\\192.168.0.222\masuya\APP Masuya\|G:\Folder shared\App Helper\app.publish\</PublishUrlHistory>
+    <PublishUrlHistory>D:\Publish\Bandung\|D:\Publish\|D:\My Project\Program\Mirror\Masuya APP Final - Bandung\publish SA Password\|D:\My Project\Program\Masuya APP Final - Bandung\publish SA Password\|D:\My Project\Program\Masuya APP Final - Bandung\publish\</PublishUrlHistory>
     <InstallUrlHistory />
     <SupportUrlHistory />
     <UpdateUrlHistory>\\192.168.0.223\Server\update\|\\192.168.0.223\Server\Masuya APP\|\\192.168.0.223\Users\Admnistrator\Downloads\Publish\|\\192.168.0.222\masuya\APP Masuya\|\\192.168.0.15\Folder shared\App Helper\app.publish\</UpdateUrlHistory>

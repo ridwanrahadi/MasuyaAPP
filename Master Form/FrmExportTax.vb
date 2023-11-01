@@ -150,7 +150,7 @@ Public Class FrmExportTax
                                 If (Tabel.Rows(i)("bulan")) < 4 And (Tabel.Rows(i)("tahun")) = 2022 Then
                                     ppn = Round(Val(jmlnet) * 0.1, 2)
                                 Else
-                                    ppn = Round(Val(jmlnet) * 0.11, 2)
+                                    ppn = Round(Val(hrgnet) * (Tabel.Rows(i)("PrsPpn") / 100))
                                 End If
                                 .Add("1" & Tabel.Rows(i)("kdbrg"))
                                 .Add(Tabel.Rows(i)("nmbrg"))
@@ -318,7 +318,7 @@ Public Class FrmExportTax
                                 If bulan < 4 And tahun = 2022 Then
                                     ppn = Round(Val(jmlnet) * 0.1, 2)
                                 Else
-                                    ppn = Round(Val(jmlnet) * 0.11, 2)
+                                    ppn = Round(Val(hrgnet) * (Tabel.Rows(i)("PrsPpn") / 100))
                                 End If
                                 .Add("1" & Tabel.Rows(i)("kdbrg"))
                                 .Add(Tabel.Rows(i)("nmbrg"))

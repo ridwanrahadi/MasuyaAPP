@@ -271,14 +271,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Masuya.exe" size="12968960">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Masuya.exe" size="12969984">
       <assemblyIdentity name="Masuya" version="5.5.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>WbvBkviPpTxQNMDRCapq5sgZr4/p5UQgajs2qerUCoA=</dsig:DigestValue>
+        <dsig:DigestValue>WN9XNwX/muMDVoMRHCkSHxf8DEbML/xblvc7SKSYBiM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -475,14 +475,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.SqlServer.Types.dll" size="390744">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.SqlServer.Types.dll" size="383576">
       <assemblyIdentity name="Microsoft.SqlServer.Types" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>fPUgU/PeHYMQ4bqUWa13Ip5WHb1W9cXtiTkjQz39xq4=</dsig:DigestValue>
+        <dsig:DigestValue>NsPl79BzHM9ayaNBxIi0/RTGl0f1o/bkzZdqfBKIs7A=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
