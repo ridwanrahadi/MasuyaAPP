@@ -13,19 +13,28 @@
         Dim gen As Integer
         Dim Noserifp1 As String
         Dim Noserifp2 As String
+        Dim Noserifp3 As String
         Dim hasil As Integer
 
         If DataGridView1.RowCount = 0 Then
             MsgBox("Click lihat data terlebih dahulu", MsgBoxStyle.Information, "Pesan")
         Else
             Tabel = Proses.ExecuteQuery("Select * from tblSysinfo")
-            nofp = Tabel(0).Item(56) + 1
-            Noserifp1 = Tabel(0).Item(12)
-            Noserifp2 = Tabel(0).Item(106)
+            nofp = Tabel(0).Item("FPNumber") + 1
+            'kode FP PPN
+            Noserifp1 = Tabel(0).Item("NoseriFP")
+            'kode FP PBBS
+            Noserifp2 = "080." & Mid(Tabel(0).Item("NoseriFP"), 5, 7)
+            'kode FP PPN05
+            Noserifp3 = "050." & Mid(Tabel(0).Item("NoseriFP"), 5, 7)
             For baris As Integer = 0 To DataGridView1.RowCount - 1
                 If DataGridView1.Rows(baris).Cells(4).Value = "PPPN" Then
                     gen = nofp + baris
                     DataGridView1.Rows(baris).Cells(2).Value = Noserifp1 & gen.ToString("00000000")
+                    DataGridView1.Rows(baris).Cells(3).Value = DateTimePicker1.Text
+                ElseIf DataGridView1.Rows(baris).Cells(4).Value = "PPPN05" Then
+                    gen = nofp + baris
+                    DataGridView1.Rows(baris).Cells(2).Value = Noserifp3 & gen.ToString("00000000")
                     DataGridView1.Rows(baris).Cells(3).Value = DateTimePicker1.Text
                 Else
                     gen = nofp + baris
@@ -35,7 +44,7 @@
             Next baris
             hasil = nofp + DataGridView1.RowCount - 1
             TextBox1.Text = hasil.ToString("00000000")
-            TextBox2.Text = Tabel(0).Item(107)
+            TextBox2.Text = Tabel(0).Item("EndFPNumber")
             Button3.Enabled = True
         End If
 
