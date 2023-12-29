@@ -144,11 +144,11 @@ Public Class FrmExportTax
                         With ListView1
                             .Items.Add("OF")
                             With .Items(.Items.Count - 1).SubItems
-                                Dim discount, jmlnet, ppn As Decimal
+                                Dim discount, hrgnet, ppn As Decimal
                                 discount = Tabel.Rows(i)("jumlah") * (Tabel.Rows(i)("PrsDisc1") / 100)
-                                jmlnet = Tabel.Rows(i)("jumlah") - discount
+                                hrgnet = Tabel.Rows(i)("jumlah") - discount
                                 If (Tabel.Rows(i)("bulan")) < 4 And (Tabel.Rows(i)("tahun")) = 2022 Then
-                                    ppn = Round(Val(jmlnet) * 0.1, 2)
+                                    ppn = Round(Val(hrgnet) * 0.1, 2)
                                 Else
                                     ppn = Round(Val(hrgnet) * (Tabel.Rows(i)("PrsPpn") / 100))
                                 End If
@@ -158,7 +158,7 @@ Public Class FrmExportTax
                                 .Add(Tabel.Rows(i)("qty"))
                                 .Add(Tabel.Rows(i)("jumlah"))
                                 .Add(discount) '// Jumlah Discount bawah
-                                .Add(jmlnet) '// Harga setelah discount
+                                .Add(hrgnet) '// Harga setelah discount
                                 .Add(ppn) '//ppn harga net
                                 .Add("Delete sebelum upload")
                                 .Add("0")
@@ -312,11 +312,11 @@ Public Class FrmExportTax
                         With ListView1
                             .Items.Add("OF")
                             With .Items(.Items.Count - 1).SubItems
-                                Dim discount, jmlnet, ppn As Decimal
+                                Dim discount, hrgnet, ppn As Decimal
                                 discount = Tabel.Rows(i)("jumlah") * (Tabel.Rows(i)("PrsDisc1") / 100)
-                                jmlnet = Tabel.Rows(i)("jumlah") - discount
+                                hrgnet = Tabel.Rows(i)("jumlah") - discount
                                 If bulan < 4 And tahun = 2022 Then
-                                    ppn = Round(Val(jmlnet) * 0.1, 2)
+                                    ppn = Round(Val(hrgnet) * 0.1, 2)
                                 Else
                                     ppn = Round(Val(hrgnet) * (Tabel.Rows(i)("PrsPpn") / 100))
                                 End If
@@ -326,7 +326,7 @@ Public Class FrmExportTax
                                 .Add(Tabel.Rows(i)("qty"))
                                 .Add(Tabel.Rows(i)("jumlah"))
                                 .Add(discount) '// Jumlah Discount bawah
-                                .Add(jmlnet) '// Harga setelah discount
+                                .Add(hrgnet) '// Harga setelah discount
                                 .Add(ppn) '//ppn harga net
                                 .Add("Delete sebelum upload")
                                 .Add("0")
