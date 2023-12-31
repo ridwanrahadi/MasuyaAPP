@@ -271,14 +271,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Masuya.exe" size="12970496">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Masuya.exe" size="12969472">
       <assemblyIdentity name="Masuya" version="5.6.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>D2gFVwjUO2OOFr+G7A6rUmxnHlLjrYOOV/CaZ0JX/Tg=</dsig:DigestValue>
+        <dsig:DigestValue>vJvjzpHjdA7lKG5Mm+0uvB+lNV16ytwwgRNpsOCyYZk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

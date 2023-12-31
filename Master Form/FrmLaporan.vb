@@ -154,7 +154,7 @@ Err_Handler:
     Sub isiGDView()
         If CBKota.SelectedIndex > -1 And CBSales.SelectedIndex > -1 Then
             Try
-                Tabel = Proses.ExecuteQuery("SELECT * from ViewPenjualanDetail  WHERE Kota='" & CBKota.Text & "' AND DivisiSales='" & CBSales.Text & "'  and  Tanggal >='" & TglAwal.Text & "' and Tanggal <='" & TglAkhir.Text & "'order by Tanggal asc")
+                Tabel = Proses.ExecuteQuery("SELECT * from ViewPenjualanDetail  WHERE Wilayah='" & CBKota.Text & "' AND DivisiSales='" & CBSales.Text & "'  and  Tanggal >='" & TglAwal.Text & "' and Tanggal <='" & TglAkhir.Text & "'order by Tanggal asc")
                 DGLaporan.DataSource = Tabel
                 Call PengaturanDGV()
             Catch ex As Exception
@@ -162,7 +162,7 @@ Err_Handler:
             End Try
         ElseIf CBKota.SelectedIndex > -1 Then
             Try
-                Tabel = Proses.ExecuteQuery("SELECT * from ViewPenjualanDetail  WHERE Kota='" & CBKota.Text & "' and  Tanggal >='" & TglAwal.Text & "' and Tanggal <='" & TglAkhir.Text & "'order by Tanggal asc")
+                Tabel = Proses.ExecuteQuery("SELECT * from ViewPenjualanDetail  WHERE Wilayah='" & CBKota.Text & "' and  Tanggal >='" & TglAwal.Text & "' and Tanggal <='" & TglAkhir.Text & "'order by Tanggal asc")
                 DGLaporan.DataSource = Tabel
                 Call PengaturanDGV()
             Catch ex As Exception
@@ -235,9 +235,9 @@ Err_Handler:
         CBType.DataSource = Tabel
         CBType.DisplayMember = "NmType"
         CBType.SelectedIndex = -1
-        Tabel = Proses.ExecuteQuery("Select * From tblkota order by NmKota")
+        Tabel = Proses.ExecuteQuery("Select * From tblWilayah order by NmWilayah")
         CBKota.DataSource = Tabel
-        CBKota.DisplayMember = "NmKota"
+        CBKota.DisplayMember = "NmWilayah"
         CBKota.SelectedIndex = -1
         Tabel = Nothing
     End Sub
