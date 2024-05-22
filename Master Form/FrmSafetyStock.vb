@@ -10,7 +10,7 @@ Public Class FrmSafetyStock
         Me.DataGridView1.Columns(6).DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight
         Me.DataGridView1.Columns(5).DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight
         Me.DataGridView1.Columns(4).DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight
-        Me.DataGridView1.Columns(2).Width = 300
+        Me.DataGridView1.Columns(2).Width = 250
 
     End Sub
     Sub pengaturandatagrid2()
@@ -32,10 +32,7 @@ Public Class FrmSafetyStock
     End Sub
 
     Private Sub btnproses_Click(sender As Object, e As EventArgs) Handles btnproses.Click
-        If txtBulan.Text = "" Then
-            MsgBox("Isi periode bulan terlebih dahulu !", MsgBoxStyle.Exclamation, "Konfirmasi")
-            txtBulan.Focus()
-        ElseIf txtKdbrg.Text = "" And cbType.Text = "" Then
+        If txtKdbrg.Text = "" And cbType.Text = "" Then
             MsgBox("Isi kode atau type barang !", MsgBoxStyle.Exclamation, "Konfirmasi")
             txtKdbrg.Focus()
         Else
@@ -100,7 +97,7 @@ Public Class FrmSafetyStock
         Else
             Try
                 For t As Integer = 0 To DataGridView1.Rows.Count - 1
-                    SQl = "update tblIvMst set QtyMin='" & DataGridView1.Rows(t).Cells(8).Value & "' where KdBrg='" & DataGridView1.Rows(t).Cells(1).Value & "'"
+                    SQl = "update tblIvMst set QtyMin='" & DataGridView1.Rows(t).Cells(9).Value & "' where KdBrg='" & DataGridView1.Rows(t).Cells(1).Value & "'"
                     Proses.ExecuteNonQuery(SQl)
                 Next
                 MsgBox("Update Qty Minimum berhasil", MsgBoxStyle.Information, "Konfirmasi")
@@ -135,32 +132,32 @@ Public Class FrmSafetyStock
        If txtKdbrg.Text = "" Then
             Try
 
-                bulan = txtBulan.Text
-                tanggal_hari_ini = Format(Date.Now, "M/dd/yyyy")
-                sampai_tanggal = Format(DateAdd(DateInterval.Month, -bulan, tanggal_hari_ini), "M/dd/yyyy")
+                bulan = DateDiff(DateInterval.Month, Dt1.Value, Dt2.Value)
+                'tanggal_hari_ini = Format(Date.Now, "M/dd/yyyy")
+                'sampai_tanggal = Format(DateAdd(DateInterval.Month, -bulan, tanggal_hari_ini), "M/dd/yyyy")
                 DataGridView1.Columns.Clear()
-                Tabel = Proses.ExecuteQuery("SELECT TblFak.JnsTrans, TblFakDtl.KdBrg, tblIvMst.NmBrg, tblIvType.NmType, MAX(a.Total) AS [MAX], SUM(TblFakDtl.Qty / '" & bulan + 1 & "') / '" & bulan + 1 & "' AS [AVG], CAST(MAX(a.Total) - SUM(TblFakDtl.Qty / '" & bulan + 1 & "') / '" & bulan + 1 & "' AS DECIMAL(14, 2)) AS [max-avg], tblIvMst.LeadTime" _
+                Tabel = Proses.ExecuteQuery("SELECT TblFak.JnsTrans, TblFakDtl.KdBrg, tblIvMst.NmBrg,TblFakDtl.Satuan, tblIvMst.Type, MAX(a.Total) AS MAX, cast(AVG(a.Total) AS decimal(18,2)) AS AVG, CAST(MAX(a.Total) - AVG(a.Total) AS DECIMAL(18, 2)) AS [max-avg], tblIvMst.LeadTime" _
                          & " FROM TblFakDtl INNER JOIN" _
                          & " TblFak ON TblFakDtl.NoBukti = TblFak.NoBukti INNER JOIN" _
                          & " tblIvMst ON TblFakDtl.KdBrg = tblIvMst.KdBrg INNER JOIN" _
                          & " TblIvType ON tblIvMst.Type = TblIvType.KdType LEFT OUTER JOIN" _
-                         & " (SELECT TblFak.JnsTrans, TblFakDtl.KdBrg, TblFakDtl.NmBrg, SUM(TblFakDtl.Qty) AS Total, MONTH(TblFak.Tgl) AS bln, YEAR(TblFak.Tgl) AS tahun" _
-                           & " FROM TblFak INNER JOIN" _
-                           & " TblFakDtl ON TblFak.NoBukti = TblFakDtl.NoBukti" _
-                           & " WHERE TblFak.Tgl >= '" & sampai_tanggal & "' AND TblFak.Tgl <= '" & tanggal_hari_ini & "'" _
-                           & " GROUP BY TblFak.JnsTrans, TblFakDtl.KdBrg, TblFakDtl.NmBrg, MONTH(TblFak.Tgl), YEAR(TblFak.Tgl)" _
-                           & " HAVING (TblFak.JnsTrans = 'jl')) a ON TblFakDtl.KdBrg = a.KdBrg" _
-                           & " WHERE TblFak.Tgl >= '" & sampai_tanggal & "' AND TblFak.Tgl <= '" & tanggal_hari_ini & "'" _
-                           & " GROUP BY TblFak.JnsTrans, TblFakDtl.KdBrg, tblIvType.NmType, tblIvMst.NmBrg, tblIvMst.LeadTime" _
-                           & " HAVING (TblFak.JnsTrans = 'JL') AND (tblIvType.NmType = '" & cbType.Text & "')")
+                         & " (SELECT TblFak_1.JnsTrans, TblFakDtl_1.KdBrg, TblFakDtl_1.NmBrg, SUM(TblFakDtl_1.Qty) AS Total, MONTH(TblFak_1.Tgl) AS bln, YEAR(TblFak_1.Tgl) AS tahun" _
+                           & " FROM TblFak AS TblFak_1 INNER JOIN" _
+                           & " TblFakDtl AS TblFakDtl_1 ON TblFak_1.NoBukti = TblFakDtl_1.NoBukti" _
+                           & " WHERE TblFak_1.Tgl >= '" & Dt1.Value & "' AND TblFak_1.Tgl <= '" & Dt2.Value & "'" _
+                           & " GROUP BY TblFak_1.JnsTrans, TblFakDtl_1.KdBrg, TblFakDtl_1.NmBrg, MONTH(TblFak_1.Tgl), YEAR(TblFak_1.Tgl)" _
+                           & " HAVING  (TblFak_1.JnsTrans = 'jl')) AS a ON TblFakDtl.KdBrg = a.KdBrg" _
+                           & " WHERE TblFak.Tgl >= '" & Dt1.Value & "' AND TblFak.Tgl <= '" & Dt2.Value & "'" _
+                           & " GROUP BY TblFak.JnsTrans, TblFakDtl.KdBrg, tblIvMst.Type,TblIvType.NmType, tblIvMst.NmBrg, tblIvMst.LeadTime, TblFakDtl.Satuan" _
+                           & " HAVING (TblFak.JnsTrans = 'JL') AND (TblIvType.NmType = '" & cbType.Text & "')")
                 DataGridView1.DataSource = Tabel
 
-                Label1.Text = tanggal_hari_ini
-                Label2.Text = sampai_tanggal
+                'Label1.Text = tanggal_hari_ini
+                'Label2.Text = sampai_tanggal
                 'Isi Qty Minimum
                 Me.DataGridView1.Columns.Add("Qty-minimum", "Qty-minimum")
                 For t As Integer = 0 To DataGridView1.Rows.Count - 1
-                    DataGridView1.Rows(t).Cells(8).Value = DataGridView1.Rows(t).Cells(6).Value * DataGridView1.Rows(t).Cells(7).Value
+                    DataGridView1.Rows(t).Cells(9).Value = DataGridView1.Rows(t).Cells(7).Value * DataGridView1.Rows(t).Cells(8).Value
                 Next
                 Call pengaturandatagrid1()
             Catch ex As Exception
@@ -168,32 +165,33 @@ Public Class FrmSafetyStock
             End Try
         ElseIf cbType.Text = "" Or cbType.Text <> "" And txtKdbrg.Text <> "" Then
             Try
-                bulan = txtBulan.Text
-                tanggal_hari_ini = Format(Date.Now, "M/dd/yyyy")
-                sampai_tanggal = Format(DateAdd(DateInterval.Month, -bulan, tanggal_hari_ini), "M/dd/yyyy")
+                bulan = DateDiff(DateInterval.Month, Dt1.Value, Dt2.Value)
+                'tanggal_hari_ini = Format(Date.Now, "M/dd/yyyy")
+                ' sampai_tanggal = Format(DateAdd(DateInterval.Month, -bulan, tanggal_hari_ini), "M/dd/yyyy")
                 DataGridView1.Columns.Clear()
-                Tabel = Proses.ExecuteQuery("SELECT TblFak.JnsTrans, TblFakDtl.KdBrg, tblIvMst.NmBrg, tblIvMst.Type, MAX(a.Total) AS [MAX], SUM(TblFakDtl.Qty / '" & bulan + 1 & "') / '" & bulan + 1 & "' AS [AVG], CAST(MAX(a.Total) - SUM(TblFakDtl.Qty / '" & bulan + 1 & "') / '" & bulan + 1 & "' AS DECIMAL(14, 2)) AS [max-avg], tblIvMst.LeadTime" _
+                Tabel = Proses.ExecuteQuery("SELECT TblFak.JnsTrans, TblFakDtl.KdBrg, tblIvMst.NmBrg,TblFakDtl.Satuan, tblIvMst.Type, MAX(a.Total) AS MAX, cast(AVG(a.Total) AS decimal(18,2)) AS AVG, CAST(MAX(a.Total) - AVG(a.Total) AS DECIMAL(18, 2)) AS [max-avg], tblIvMst.LeadTime" _
                          & " FROM TblFakDtl INNER JOIN" _
                          & " TblFak ON TblFakDtl.NoBukti = TblFak.NoBukti INNER JOIN" _
                          & " tblIvMst ON TblFakDtl.KdBrg = tblIvMst.KdBrg INNER JOIN" _
                          & " TblIvType ON tblIvMst.Type = TblIvType.KdType LEFT OUTER JOIN" _
-                         & " (SELECT TblFak.JnsTrans, TblFakDtl.KdBrg, TblFakDtl.NmBrg, SUM(TblFakDtl.Qty) AS Total, MONTH(TblFak.Tgl) AS bln, YEAR(TblFak.Tgl) AS tahun" _
-                           & " FROM TblFak INNER JOIN" _
-                           & " TblFakDtl ON TblFak.NoBukti = TblFakDtl.NoBukti" _
-                           & " WHERE TblFak.Tgl >= '" & sampai_tanggal & "' AND TblFak.Tgl <= '" & tanggal_hari_ini & "'" _
-                           & " GROUP BY TblFak.JnsTrans, TblFakDtl.KdBrg, TblFakDtl.NmBrg, MONTH(TblFak.Tgl), YEAR(TblFak.Tgl)" _
-                           & " HAVING (TblFak.JnsTrans = 'jl')) a ON TblFakDtl.KdBrg = a.KdBrg" _
-                           & " WHERE TblFak.Tgl >= '" & sampai_tanggal & "' AND TblFak.Tgl <= '" & tanggal_hari_ini & "'" _
-                           & " GROUP BY TblFak.JnsTrans, TblFakDtl.KdBrg, tblIvMst.Type, tblIvMst.NmBrg, tblIvMst.LeadTime" _
+                         & " (SELECT TblFak_1.JnsTrans, TblFakDtl_1.KdBrg, TblFakDtl_1.NmBrg, SUM(TblFakDtl_1.Qty) AS Total, MONTH(TblFak_1.Tgl) AS bln, YEAR(TblFak_1.Tgl) AS tahun" _
+                           & " FROM TblFak AS TblFak_1 INNER JOIN" _
+                           & " TblFakDtl AS TblFakDtl_1 ON TblFak_1.NoBukti = TblFakDtl_1.NoBukti" _
+                           & " WHERE TblFak_1.Tgl >= '" & Dt1.Value & "' AND TblFak_1.Tgl <= '" & Dt2.Value & "'" _
+                           & " GROUP BY TblFak_1.JnsTrans, TblFakDtl_1.KdBrg, TblFakDtl_1.NmBrg, MONTH(TblFak_1.Tgl), YEAR(TblFak_1.Tgl)" _
+                           & " HAVING  (TblFak_1.JnsTrans = 'jl')) AS a ON TblFakDtl.KdBrg = a.KdBrg" _
+                           & " WHERE TblFak.Tgl >= '" & Dt1.Value & "' AND TblFak.Tgl <= '" & Dt2.Value & "'" _
+                           & " GROUP BY TblFak.JnsTrans, TblFakDtl.KdBrg, tblIvMst.Type, tblIvMst.NmBrg, tblIvMst.LeadTime, TblFakDtl.Satuan" _
                            & " HAVING (TblFak.JnsTrans = 'JL') AND (TblFakDtl.KdBrg = '" & txtKdbrg.Text & "')")
                 DataGridView1.DataSource = Tabel
-                Label1.Text = tanggal_hari_ini
-                Label2.Text = sampai_tanggal
+                'Label1.Text = tanggal_hari_ini
+                'Label2.Text = sampai_tanggal
+                'Label9.Text = bulan
 
                 'Isi Qty Minimum
                 Me.DataGridView1.Columns.Add("Qty-minimum", "Qty-minimum")
                 For t As Integer = 0 To DataGridView1.Rows.Count - 1
-                    DataGridView1.Rows(t).Cells(8).Value = DataGridView1.Rows(t).Cells(6).Value * DataGridView1.Rows(t).Cells(7).Value
+                    DataGridView1.Rows(t).Cells(9).Value = DataGridView1.Rows(t).Cells(7).Value * DataGridView1.Rows(t).Cells(8).Value
                 Next
                 Call pengaturandatagrid1()
             Catch ex As Exception

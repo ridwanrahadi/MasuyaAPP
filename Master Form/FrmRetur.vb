@@ -298,7 +298,7 @@ Public Class FrmRetur
                 Try
                     DGV.Columns.Clear()
                     con = New SqlConnection
-                    con.ConnectionString = ("Persist Security Info=True;UID=SA;PWD=;Connect timeout=600;Initial Catalog='" & FrmUtama.DatabaseTextBox.Text & "';Data Source='" & FrmUtama.ServerTextBox.Text & "'")
+                    con.ConnectionString = ("Persist Security Info=True;UID=sa;PWD=Shield@1945;Connect timeout=600;Initial Catalog='" & FrmUtama.DatabaseTextBox.Text & "';Data Source='" & FrmUtama.ServerTextBox.Text & "'")
                     con.Open()
                     adap = New SqlDataAdapter("Select Line,NoBukti,KdBrg,NmBrg,Qty,Satuan,Kondisi,Keterangan,Keterangan2 from tblGdReturDetail where NoBukti='" & txtNoBukti.Text & "'", con)
                     ds = New System.Data.DataSet

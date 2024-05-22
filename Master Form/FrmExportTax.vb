@@ -46,9 +46,13 @@ Public Class FrmExportTax
         Dim tanggalfp As Date
         Dim typefp As String
         Dim baris As Integer
+        Dim tblsys As DataTable
+        Dim PpnSys As Double
         If e.KeyCode = Keys.Enter Then
             Try
-                Tabel = Proses.ExecuteQuery("Select TblFak.Tgl,TblFak.Alm1,TblFak.Alm2,TblFak.Alm3, TblFak.NoFP, TblFak.TglFP,TblFak.KdCust,TblFak.ReceivedBy, tblCustomer.NoNpwp, TblFak.NmCust,tblCustomer.NmPkp, tblCustomer.NoKTP, tblCustomer.AlmFP1,tblCustomer.AlmFP2, tblCustomer.AlmFP3, tblCustomer.isNameEditable, TblFak.Subtotal - TblFak.Discount AS DPP, TblFak.Discount, TblFak.Ppn, TblFak.NoBukti,MONTH(TblFak.TglFP) AS bulan, YEAR(TblFak.TglFP) AS tahun,MONTH(TblFak.Tgl) AS bulanJL,YEAR(TblFak.Tgl) AS tahunJL,TblFak.JnsJualTax,tblFak.StampPBBS FROM  TblFak INNER JOIN tblCustomer ON TblFak.KdCust = tblCustomer.KdCust where nobukti='" & txtNoBukti.Text & "'")
+                tblsys = Proses.ExecuteQuery("Select PrsPpn from TblSysInfo")
+                PpnSys = tblsys.Rows(0).Item("PrsPpn")
+                Tabel = Proses.ExecuteQuery("Select TblFak.Tgl,TblFak.Alm1,TblFak.Alm2,TblFak.Alm3, TblFak.NoFP, TblFak.TglFP,TblFak.KdCust,TblFak.ReceivedBy, tblCustomer.NoNpwp, TblFak.NmCust,tblCustomer.NmPkp, tblCustomer.NoKTP, tblCustomer.AlmFP1,tblCustomer.AlmFP2, tblCustomer.AlmFP3, tblCustomer.isNameEditable, TblFak.Subtotal - TblFak.Discount AS DPP, TblFak.Discount, TblFak.Ppn, TblFak.PrsPpn, TblFak.NoBukti,MONTH(TblFak.TglFP) AS bulan, YEAR(TblFak.TglFP) AS tahun,MONTH(TblFak.Tgl) AS bulanJL,YEAR(TblFak.Tgl) AS tahunJL,TblFak.JnsJualTax,tblFak.StampPBBS FROM  TblFak INNER JOIN tblCustomer ON TblFak.KdCust = tblCustomer.KdCust where nobukti='" & txtNoBukti.Text & "'")
                 If Tabel.Rows.Count = 0 Then
                     MsgBox("Nomor bukti tersebut tidak ditemukan", MsgBoxStyle.Exclamation, "Konfirmasi")
                     txtNoBukti.Focus()
@@ -100,13 +104,11 @@ Public Class FrmExportTax
                                     .Add(Tabel.Rows(i)("AlmFP1") & " " & Tabel.Rows(i)("AlmFP2") & " " & Tabel.Rows(i)("AlmFP3"))
                                 End If
                                 '//
-                                .Add(Tabel.Rows(i)("DPP"))
+                                '.Add(Round(Val(Tabel.Rows(i)("DPP"))))
+                                .Add(Int(Tabel.Rows(i)("DPP"))) '//Jumlah DPP
                                 If typefp = "08" Then
-                                    If (Tabel.Rows(i)("bulanJL")) < 4 And (Tabel.Rows(i)("tahunJL")) = 2022 Then
-                                        .Add(Int(Tabel.Rows(i)("DPP") * 0.1)) '//Jumlah PPN 10%
-                                    Else
-                                        .Add(Int(Tabel.Rows(i)("DPP") * 0.11)) '//Jumlah PPN 11%
-                                    End If
+                                    ' .Add(Round(Val(Tabel.Rows(i)("DPP") * PpnSys / 100))) '//Jumlah PPN 11%
+                                    .Add(Int(Tabel.Rows(i)("DPP") * PpnSys / 100)) '//Jumlah PPN 11%
                                     .Add("0")
                                     If Not IsDBNull(Tabel.Rows(i)("StampPBBS")) Then
                                         .Add(Tabel.Rows(i)("StampPBBS"))
@@ -119,7 +121,8 @@ Public Class FrmExportTax
                                     .Add("0")
                                     .Add("0")
                                 ElseIf typefp = "07" Then
-                                    .Add(Int(Tabel.Rows(i)("Ppn"))) '// Jumlah PPN
+                                    '.Add(Round(Val(Tabel.Rows(i)("Ppn")))) '// Jumlah PPN
+                                    .Add(Int(Tabel.Rows(i)("DPP") * PpnSys / 100)) '//Jumlah PPN 11%
                                     .Add("0")
                                     .Add("1")
                                     .Add("0")
@@ -127,7 +130,8 @@ Public Class FrmExportTax
                                     .Add("0")
                                     .Add("0")
                                 Else
-                                    .Add(Int(Tabel.Rows(i)("Ppn"))) '// Jumlah PPN
+                                    '.Add(Round(Val(Tabel.Rows(i)("Ppn")))) '// Jumlah PPN
+                                    .Add(Int(Tabel.Rows(i)("Ppn"))) '//Jumlah PPN
                                     .Add("0")
                                     .Add("0")
                                     .Add("0")
@@ -144,21 +148,19 @@ Public Class FrmExportTax
                         With ListView1
                             .Items.Add("OF")
                             With .Items(.Items.Count - 1).SubItems
-                                Dim discount, hrgnet, ppn As Decimal
+                                 Dim discount, jumlahnet, ppn As Decimal
                                 discount = Tabel.Rows(i)("jumlah") * (Tabel.Rows(i)("PrsDisc1") / 100)
-                                hrgnet = Tabel.Rows(i)("jumlah") - discount
-                                If (Tabel.Rows(i)("bulan")) < 4 And (Tabel.Rows(i)("tahun")) = 2022 Then
-                                    ppn = Round(Val(hrgnet) * 0.1, 2)
-                                Else
-                                    ppn = Round(Val(hrgnet) * (Tabel.Rows(i)("PrsPpn") / 100))
-                                End If
+                                'jumlahnet = Round(Val(Tabel.Rows(i)("jumlah") - discount))
+                                jumlahnet = (Tabel.Rows(i)("jumlah") - discount)
+                                ppn = jumlahnet * (PpnSys / 100)
                                 .Add("1" & Tabel.Rows(i)("kdbrg"))
                                 .Add(Tabel.Rows(i)("nmbrg"))
                                 .Add(Tabel.Rows(i)("hrgnet"))
                                 .Add(Tabel.Rows(i)("qty"))
+                                '.Add(Round(Val(Tabel.Rows(i)("jumlah"))))
                                 .Add(Tabel.Rows(i)("jumlah"))
                                 .Add(discount) '// Jumlah Discount bawah
-                                .Add(hrgnet) '// Harga setelah discount
+                                .Add(jumlahnet) '// Harga setelah discount
                                 .Add(ppn) '//ppn harga net
                                 .Add("Delete sebelum upload")
                                 .Add("0")
@@ -211,9 +213,13 @@ Public Class FrmExportTax
         Dim tanggalfp As Date
         Dim typefp As String
         Dim baris As Integer
+        Dim tblsys As DataTable
+        Dim PpnSys As Double
         For r As Integer = 0 To DGV.RowCount - 1
             Try
-                Tabel = Proses.ExecuteQuery("Select TblFak.Tgl,TblFak.Alm1,TblFak.Alm2,TblFak.Alm3, TblFak.NoFP, TblFak.TglFP,TblFak.KdCust,TblFak.ReceivedBy, tblCustomer.NoNpwp, TblFak.NmCust,tblCustomer.NmPkp, tblCustomer.NoKTP, tblCustomer.AlmFP1,tblCustomer.AlmFP2, tblCustomer.AlmFP3, tblCustomer.isNameEditable, TblFak.Subtotal - TblFak.Discount AS DPP, TblFak.Discount, TblFak.Ppn, TblFak.NoBukti,MONTH(dbo.TblFak.TglFP) AS bulan, YEAR(dbo.TblFak.TglFP) AS tahun,MONTH(TblFak.Tgl) AS bulanJL,YEAR(TblFak.Tgl) AS tahunJL,TblFak.JnsJualTax,tblFak.StampPBBS FROM  TblFak INNER JOIN tblCustomer ON TblFak.KdCust = tblCustomer.KdCust where nobukti='" & DGV.Rows(r).Cells(0).Value & "'")
+                tblsys = Proses.ExecuteQuery("Select PrsPpn from TblSysInfo")
+                PpnSys = tblsys.Rows(0).Item("PrsPpn")
+                Tabel = Proses.ExecuteQuery("Select TblFak.Tgl,TblFak.Alm1,TblFak.Alm2,TblFak.Alm3, TblFak.NoFP, TblFak.TglFP,TblFak.KdCust,TblFak.ReceivedBy, tblCustomer.NoNpwp, TblFak.NmCust,tblCustomer.NmPkp, tblCustomer.NoKTP, tblCustomer.AlmFP1,tblCustomer.AlmFP2, tblCustomer.AlmFP3, tblCustomer.isNameEditable, TblFak.Subtotal - TblFak.Discount AS DPP, TblFak.Discount, TblFak.Ppn, TblFak.PrsPpn, TblFak.NoBukti,MONTH(dbo.TblFak.TglFP) AS bulan, YEAR(dbo.TblFak.TglFP) AS tahun,MONTH(TblFak.Tgl) AS bulanJL,YEAR(TblFak.Tgl) AS tahunJL,TblFak.JnsJualTax,tblFak.StampPBBS FROM  TblFak INNER JOIN tblCustomer ON TblFak.KdCust = tblCustomer.KdCust where nobukti='" & DGV.Rows(r).Cells(0).Value & "'")
                 If Tabel.Rows.Count = 0 Then
                     MsgBox("Data Nomor Transaksi= " & DGV.Rows(r).Cells(0).Value & " tidak ditemukan")
                     Me.DGV.Rows(r).DefaultCellStyle.BackColor = Color.Red
@@ -265,13 +271,11 @@ Public Class FrmExportTax
                                     .Add(Tabel.Rows(i)("AlmFP1") & " " & Tabel.Rows(i)("AlmFP2") & " " & Tabel.Rows(i)("AlmFP3"))
                                 End If
                                 '//
-                                .Add(Tabel.Rows(i)("DPP"))
+                                '.Add(Round(Val(Tabel.Rows(i)("DPP"))))
+                                .Add(Int(Tabel.Rows(i)("DPP"))) '//Jumlah DPP
                                 If typefp = "08" Then
-                                    If (Tabel.Rows(i)("bulanJL")) < 4 And (Tabel.Rows(i)("tahunJL")) = 2022 Then
-                                        .Add(Int(Tabel.Rows(i)("DPP") * 0.1)) '//Jumlah PPN 10%
-                                    Else
-                                        .Add(Int(Tabel.Rows(i)("DPP") * 0.11)) '//Jumlah PPN 11%
-                                    End If
+                                        ' .Add(Round(Val(Tabel.Rows(i)("DPP") * PpnSys / 100))) '//Jumlah PPN 11%
+                                    .Add(Int(Tabel.Rows(i)("DPP") * PpnSys / 100)) '//Jumlah PPN 11%
                                     .Add("0")
                                     If Not IsDBNull(Tabel.Rows(i)("StampPBBS")) Then
                                         .Add(Tabel.Rows(i)("StampPBBS"))
@@ -284,7 +288,8 @@ Public Class FrmExportTax
                                     .Add("0")
                                     .Add("0")
                                 ElseIf typefp = "07" Then
-                                    .Add(Int(Tabel.Rows(i)("Ppn"))) '//Jumlah PPN
+                                    '.Add(Round(Val(Tabel.Rows(i)("Ppn")))) '// Jumlah PPN
+                                    .Add(Int(Tabel.Rows(i)("DPP") * PpnSys / 100)) '//Jumlah PPN 11%
                                     .Add("0")
                                     .Add("1")
                                     .Add("0")
@@ -292,6 +297,7 @@ Public Class FrmExportTax
                                     .Add("0")
                                     .Add("0")
                                 Else
+                                    '.Add(Round(Val(Tabel.Rows(i)("Ppn")))) '// Jumlah PPN
                                     .Add(Int(Tabel.Rows(i)("Ppn"))) '//Jumlah PPN
                                     .Add("0")
                                     .Add("0")
@@ -312,21 +318,19 @@ Public Class FrmExportTax
                         With ListView1
                             .Items.Add("OF")
                             With .Items(.Items.Count - 1).SubItems
-                                Dim discount, hrgnet, ppn As Decimal
+                                Dim discount, jumlahnet, ppn As Decimal
                                 discount = Tabel.Rows(i)("jumlah") * (Tabel.Rows(i)("PrsDisc1") / 100)
-                                hrgnet = Tabel.Rows(i)("jumlah") - discount
-                                If bulan < 4 And tahun = 2022 Then
-                                    ppn = Round(Val(hrgnet) * 0.1, 2)
-                                Else
-                                    ppn = Round(Val(hrgnet) * (Tabel.Rows(i)("PrsPpn") / 100))
-                                End If
+                                'jumlahnet = Round(Val(Tabel.Rows(i)("jumlah") - discount))
+                                jumlahnet = (Tabel.Rows(i)("jumlah") - discount)
+                                ppn = jumlahnet * (PpnSys / 100)
                                 .Add("1" & Tabel.Rows(i)("kdbrg"))
                                 .Add(Tabel.Rows(i)("nmbrg"))
                                 .Add(Tabel.Rows(i)("hrgnet"))
                                 .Add(Tabel.Rows(i)("qty"))
+                                '.Add(Round(Val(Tabel.Rows(i)("jumlah"))))
                                 .Add(Tabel.Rows(i)("jumlah"))
                                 .Add(discount) '// Jumlah Discount bawah
-                                .Add(hrgnet) '// Harga setelah discount
+                                .Add(jumlahnet) '// Harga setelah discount
                                 .Add(ppn) '//ppn harga net
                                 .Add("Delete sebelum upload")
                                 .Add("0")
