@@ -46,43 +46,48 @@ Partial Class FrmHisRetur
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(12, 18)
+        Me.Label1.Location = New System.Drawing.Point(16, 22)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(53, 13)
+        Me.Label1.Size = New System.Drawing.Size(70, 17)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Start date"
         '
         'DTAwal
         '
         Me.DTAwal.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DTAwal.Location = New System.Drawing.Point(71, 12)
+        Me.DTAwal.Location = New System.Drawing.Point(95, 15)
+        Me.DTAwal.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.DTAwal.Name = "DTAwal"
-        Me.DTAwal.Size = New System.Drawing.Size(119, 20)
+        Me.DTAwal.Size = New System.Drawing.Size(157, 22)
         Me.DTAwal.TabIndex = 1
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(196, 18)
+        Me.Label2.Location = New System.Drawing.Point(261, 22)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(50, 13)
+        Me.Label2.Size = New System.Drawing.Size(65, 17)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "End date"
         '
         'DTAkhir
         '
         Me.DTAkhir.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DTAkhir.Location = New System.Drawing.Point(252, 12)
+        Me.DTAkhir.Location = New System.Drawing.Point(336, 15)
+        Me.DTAkhir.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.DTAkhir.Name = "DTAkhir"
-        Me.DTAkhir.Size = New System.Drawing.Size(116, 20)
+        Me.DTAkhir.Size = New System.Drawing.Size(153, 22)
         Me.DTAkhir.TabIndex = 3
         '
         'BtProses
         '
         Me.BtProses.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.BtProses.Location = New System.Drawing.Point(374, 9)
+        Me.BtProses.Location = New System.Drawing.Point(499, 11)
+        Me.BtProses.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BtProses.Name = "BtProses"
-        Me.BtProses.Size = New System.Drawing.Size(75, 23)
+        Me.BtProses.Size = New System.Drawing.Size(100, 28)
         Me.BtProses.TabIndex = 4
         Me.BtProses.Text = "Proses"
         Me.BtProses.UseVisualStyleBackColor = True
@@ -95,18 +100,21 @@ Partial Class FrmHisRetur
         Me.GroupBox1.Controls.Add(Me.Label4)
         Me.GroupBox1.Controls.Add(Me.txtNoBukti)
         Me.GroupBox1.Controls.Add(Me.Label3)
-        Me.GroupBox1.Location = New System.Drawing.Point(15, 38)
+        Me.GroupBox1.Location = New System.Drawing.Point(20, 47)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(654, 538)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Size = New System.Drawing.Size(872, 662)
         Me.GroupBox1.TabIndex = 5
         Me.GroupBox1.TabStop = False
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(6, 267)
+        Me.Label5.Location = New System.Drawing.Point(8, 329)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(40, 13)
+        Me.Label5.Size = New System.Drawing.Size(52, 17)
         Me.Label5.TabIndex = 10
         Me.Label5.Text = "Detail :"
         '
@@ -124,49 +132,55 @@ Partial Class FrmHisRetur
         DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
         Me.DGVHisRetur.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
         Me.DGVHisRetur.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DGVHisRetur.Location = New System.Drawing.Point(9, 54)
+        Me.DGVHisRetur.Location = New System.Drawing.Point(12, 66)
+        Me.DGVHisRetur.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.DGVHisRetur.Name = "DGVHisRetur"
         Me.DGVHisRetur.ReadOnly = True
-        Me.DGVHisRetur.Size = New System.Drawing.Size(639, 193)
+        Me.DGVHisRetur.Size = New System.Drawing.Size(852, 238)
         Me.DGVHisRetur.TabIndex = 6
         '
         'txtnmCust
         '
-        Me.txtnmCust.Location = New System.Drawing.Point(256, 25)
+        Me.txtnmCust.Location = New System.Drawing.Point(341, 31)
+        Me.txtnmCust.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtnmCust.Name = "txtnmCust"
-        Me.txtnmCust.Size = New System.Drawing.Size(214, 20)
+        Me.txtnmCust.Size = New System.Drawing.Size(284, 22)
         Me.txtnmCust.TabIndex = 9
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(166, 28)
+        Me.Label4.Location = New System.Drawing.Point(221, 34)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(82, 13)
+        Me.Label4.Size = New System.Drawing.Size(109, 17)
         Me.Label4.TabIndex = 8
         Me.Label4.Text = "Nama Customer"
         '
         'txtNoBukti
         '
-        Me.txtNoBukti.Location = New System.Drawing.Point(60, 25)
+        Me.txtNoBukti.Location = New System.Drawing.Point(80, 31)
+        Me.txtNoBukti.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtNoBukti.Name = "txtNoBukti"
-        Me.txtNoBukti.Size = New System.Drawing.Size(100, 20)
+        Me.txtNoBukti.Size = New System.Drawing.Size(132, 22)
         Me.txtNoBukti.TabIndex = 7
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(6, 28)
+        Me.Label3.Location = New System.Drawing.Point(8, 34)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(48, 13)
+        Me.Label3.Size = New System.Drawing.Size(61, 17)
         Me.Label3.TabIndex = 6
         Me.Label3.Text = "No Bukti"
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(591, 9)
+        Me.Button1.Location = New System.Drawing.Point(788, 11)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(100, 28)
         Me.Button1.TabIndex = 8
         Me.Button1.Text = "Print"
         Me.Button1.UseVisualStyleBackColor = True
@@ -185,18 +199,19 @@ Partial Class FrmHisRetur
         DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
         Me.DGVHisDetail.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.DGVHisDetail.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DGVHisDetail.Location = New System.Drawing.Point(24, 325)
+        Me.DGVHisDetail.Location = New System.Drawing.Point(32, 400)
+        Me.DGVHisDetail.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.DGVHisDetail.Name = "DGVHisDetail"
         Me.DGVHisDetail.ReadOnly = True
-        Me.DGVHisDetail.Size = New System.Drawing.Size(639, 232)
+        Me.DGVHisDetail.Size = New System.Drawing.Size(852, 286)
         Me.DGVHisDetail.TabIndex = 7
         '
         'FrmHisRetur
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
-        Me.ClientSize = New System.Drawing.Size(678, 444)
+        Me.ClientSize = New System.Drawing.Size(904, 730)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.DGVHisDetail)
         Me.Controls.Add(Me.GroupBox1)
@@ -206,6 +221,7 @@ Partial Class FrmHisRetur
         Me.Controls.Add(Me.DTAwal)
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MaximizeBox = False
         Me.Name = "FrmHisRetur"
         Me.ShowIcon = False

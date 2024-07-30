@@ -6,10 +6,10 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>2.33681in</Width>
+              <Width>2.09847in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.79167in</Width>
+              <Width>0.68334in</Width>
             </TablixColumn>
             <TablixColumn>
               <Width>1.4375in</Width>
@@ -18,13 +18,16 @@
               <Width>1.26042in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.10417in</Width>
+              <Width>0.95417in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.27083in</Width>
+              <Width>1.1125in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.23958in</Width>
+              <Width>1.04442in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1in</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
@@ -43,8 +46,6 @@
                               <Value>Nama Barang</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
-                                <FontSize>11pt</FontSize>
-                                <FontWeight>Bold</FontWeight>
                                 <Color>White</Color>
                               </Style>
                             </TextRun>
@@ -82,8 +83,6 @@
                               <Value>Qty</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
-                                <FontSize>11pt</FontSize>
-                                <FontWeight>Bold</FontWeight>
                                 <Color>White</Color>
                               </Style>
                             </TextRun>
@@ -121,8 +120,6 @@
                               <Value>Keterangan</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
-                                <FontSize>11pt</FontSize>
-                                <FontWeight>Bold</FontWeight>
                                 <Color>White</Color>
                               </Style>
                             </TextRun>
@@ -160,8 +157,6 @@
                               <Value>Keterangan Pelengkap</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
-                                <FontSize>11pt</FontSize>
-                                <FontWeight>Bold</FontWeight>
                                 <Color>White</Color>
                               </Style>
                             </TextRun>
@@ -199,8 +194,6 @@
                               <Value>No Faktur</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
-                                <FontSize>11pt</FontSize>
-                                <FontWeight>Bold</FontWeight>
                                 <Color>White</Color>
                               </Style>
                             </TextRun>
@@ -238,8 +231,6 @@
                               <Value>Sales</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
-                                <FontSize>11pt</FontSize>
-                                <FontWeight>Bold</FontWeight>
                                 <Color>White</Color>
                               </Style>
                             </TextRun>
@@ -277,8 +268,6 @@
                               <Value>Driver</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
-                                <FontSize>11pt</FontSize>
-                                <FontWeight>Bold</FontWeight>
                                 <Color>White</Color>
                               </Style>
                             </TextRun>
@@ -289,6 +278,43 @@
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Textbox11</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>#4e648a</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#384c70</BackgroundColor>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox8">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Picker</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox8</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>#4e648a</Color>
@@ -320,7 +346,7 @@
                             <TextRun>
                               <Value>=Fields!NmBrg.Value</Value>
                               <Style>
-                                <FontFamily>Tahoma</FontFamily>
+                                <FontFamily>Calibri Light</FontFamily>
                                 <FontSize>8pt</FontSize>
                                 <Color>#4d4d4d</Color>
                               </Style>
@@ -355,7 +381,7 @@
                             <TextRun>
                               <Value>=Fields!Qty.Value</Value>
                               <Style>
-                                <FontFamily>Tahoma</FontFamily>
+                                <FontFamily>Calibri Light</FontFamily>
                                 <FontSize>8pt</FontSize>
                                 <Format>#,0.00;(#,0.00)</Format>
                                 <Color>#4d4d4d</Color>
@@ -393,7 +419,7 @@
                             <TextRun>
                               <Value>=Fields!Keterangan.Value</Value>
                               <Style>
-                                <FontFamily>Tahoma</FontFamily>
+                                <FontFamily>Calibri Light</FontFamily>
                                 <FontSize>8pt</FontSize>
                                 <Color>#4d4d4d</Color>
                               </Style>
@@ -428,7 +454,7 @@
                             <TextRun>
                               <Value>=Fields!Keterangan2.Value</Value>
                               <Style>
-                                <FontFamily>Tahoma</FontFamily>
+                                <FontFamily>Calibri Light</FontFamily>
                                 <FontSize>8pt</FontSize>
                                 <Color>#4d4d4d</Color>
                               </Style>
@@ -463,7 +489,7 @@
                             <TextRun>
                               <Value>=Fields!NoFaktur.Value</Value>
                               <Style>
-                                <FontFamily>Tahoma</FontFamily>
+                                <FontFamily>Calibri Light</FontFamily>
                                 <FontSize>8pt</FontSize>
                                 <Color>#4d4d4d</Color>
                               </Style>
@@ -500,7 +526,7 @@
                             <TextRun>
                               <Value>=Fields!Sales.Value</Value>
                               <Style>
-                                <FontFamily>Tahoma</FontFamily>
+                                <FontFamily>Calibri Light</FontFamily>
                                 <FontSize>8pt</FontSize>
                                 <Color>#4d4d4d</Color>
                               </Style>
@@ -535,7 +561,7 @@
                             <TextRun>
                               <Value>=Fields!Driver.Value</Value>
                               <Style>
-                                <FontFamily>Tahoma</FontFamily>
+                                <FontFamily>Calibri Light</FontFamily>
                                 <FontSize>8pt</FontSize>
                                 <Color>#4d4d4d</Color>
                               </Style>
@@ -545,6 +571,41 @@
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Driver</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>#e5e5e5</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Picker">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Picker.Value</Value>
+                              <Style>
+                                <FontFamily>Calibri Light</FontFamily>
+                                <FontSize>8pt</FontSize>
+                                <Color>#4d4d4d</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Picker</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>#e5e5e5</Color>
@@ -811,6 +872,41 @@
                     </Textbox>
                   </CellContents>
                 </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox12">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>9pt</FontSize>
+                                <Color>#4d4d4d</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox12</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>#e5e5e5</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
               </TablixCells>
             </TablixRow>
           </TablixRows>
@@ -824,13 +920,14 @@
             <TablixMember />
             <TablixMember />
             <TablixMember />
+            <TablixMember />
           </TablixMembers>
         </TablixColumnHierarchy>
         <TablixRowHierarchy>
           <TablixMembers>
             <TablixMember>
               <TablixHeader>
-                <Size>1.79861in</Size>
+                <Size>1.6696in</Size>
                 <CellContents>
                   <Textbox Name="Textbox57">
                     <CanGrow>true</CanGrow>
@@ -842,8 +939,6 @@
                             <Value>Customer</Value>
                             <Style>
                               <FontFamily>Tahoma</FontFamily>
-                              <FontSize>11pt</FontSize>
-                              <FontWeight>Bold</FontWeight>
                               <Color>White</Color>
                             </Style>
                           </TextRun>
@@ -887,7 +982,7 @@
                 </SortExpression>
               </SortExpressions>
               <TablixHeader>
-                <Size>1.79861in</Size>
+                <Size>1.6696in</Size>
                 <CellContents>
                   <Textbox Name="NmCust1">
                     <CanGrow>true</CanGrow>
@@ -898,7 +993,7 @@
                           <TextRun>
                             <Value>=Fields!NmCust.Value</Value>
                             <Style>
-                              <FontFamily>Tahoma</FontFamily>
+                              <FontFamily>Calibri Light</FontFamily>
                               <FontSize>8pt</FontSize>
                               <FontWeight>SemiBold</FontWeight>
                               <Color>#626275</Color>
@@ -939,10 +1034,10 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>ReportLPB</DataSetName>
-        <Top>0.06944in</Top>
+        <Top>0.01388in</Top>
         <Left>0.22792in</Left>
         <Height>0.94792in</Height>
-        <Width>11.23958in</Width>
+        <Width>11.26042in</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -950,10 +1045,10 @@
         </Style>
       </Tablix>
     </ReportItems>
-    <Height>1.31944in</Height>
+    <Height>0.9618in</Height>
     <Style />
   </Body>
-  <Width>11.67583in</Width>
+  <Width>11.64139in</Width>
   <Page>
     <PageHeader>
       <Height>1.2175in</Height>
@@ -1344,10 +1439,18 @@
           <DataField>Keterangan2</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
+        <Field Name="NoBukti">
+          <DataField>NoBukti</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Picker">
+          <DataField>Picker</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>DataSet1</rd:DataSetName>
-        <rd:SchemaPath>D:\My Project\Program\Masuya APP Final - Bandung\Source Code Versi 27 ppn 11%\Form Report\DataSet1.xsd</rd:SchemaPath>
+        <rd:SchemaPath>D:\ProjectVB\MasuyaAPP\Form Report\DataSet1.xsd</rd:SchemaPath>
         <rd:TableName>LapPengembalianBarang</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>

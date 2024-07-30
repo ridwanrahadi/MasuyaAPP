@@ -20,18 +20,19 @@
     <PublishUrl>D:\Publish\Bandung\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
-    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateEnabled>true</UpdateEnabled>
     <UpdateMode>Foreground</UpdateMode>
     <UpdateInterval>7</UpdateInterval>
     <UpdateIntervalUnits>Days</UpdateIntervalUnits>
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>\\192.168.0.223\Server\Masuya APP\</UpdateUrl>
     <ProductName>Masuya APP</ProductName>
     <PublisherName>Ridwan Rahadi</PublisherName>
     <MinimumRequiredVersion>2.4.1.5</MinimumRequiredVersion>
-    <ApplicationRevision>2</ApplicationRevision>
-    <ApplicationVersion>5.9.3.%2a</ApplicationVersion>
+    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationVersion>6.0.2.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -184,6 +185,7 @@
     <Reference Include="System.Data.DataSetExtensions" />
   </ItemGroup>
   <ItemGroup>
+    <Import Include="MessagingToolkit.Barcode" />
     <Import Include="Microsoft.VisualBasic" />
     <Import Include="System" />
     <Import Include="System.Collections" />
@@ -250,10 +252,19 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Form Report\DataSet1.vb">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Form Report\FrmReportExp.Designer.vb">
       <DependentUpon>FrmReportExp.vb</DependentUpon>
     </Compile>
     <Compile Include="Form Report\FrmReportExp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Report\FrmReportLabel.Designer.vb">
+      <DependentUpon>FrmReportLabel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form Report\FrmReportLabel.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form Report\FrmReportLPB.Designer.vb">
@@ -627,6 +638,9 @@
     <EmbeddedResource Include="Form Report\FrmReportExp.resx">
       <DependentUpon>FrmReportExp.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form Report\FrmReportLabel.resx">
+      <DependentUpon>FrmReportLabel.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form Report\FrmReportLPB.resx">
       <DependentUpon>FrmReportLPB.vb</DependentUpon>
     </EmbeddedResource>
@@ -661,6 +675,7 @@
     <EmbeddedResource Include="Form Report\Report11.rdlc" />
     <EmbeddedResource Include="Form Report\Report2.rdlc" />
     <EmbeddedResource Include="Form Report\Report3.rdlc" />
+    <EmbeddedResource Include="Form Report\ReportLabel.rdlc" />
     <EmbeddedResource Include="Form Report\rptLPB.rdlc" />
     <EmbeddedResource Include="Form Report\rptTagih.rdlc" />
     <EmbeddedResource Include="Form Report\ReportPO.rdlc" />

@@ -2,7 +2,7 @@
 <xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
   <xs:annotation>
     <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
-      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
         <Connections>
           <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (MySettings)" PropertyReference="ApplicationSettings.Aplication_Helper.My.MySettings.GlobalReference.Default.ConnectionString" Provider="System.Data.OleDb" />
         </Connections>
@@ -91,12 +91,14 @@ FROM            salesorder INNER JOIN
           </TableAdapter>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="LapPengembalianBarangTableAdapter" GeneratorDataComponentClassName="LapPengembalianBarangTableAdapter" Name="LapPengembalianBarang" UserDataComponentName="LapPengembalianBarangTableAdapter">
             <MainSource>
-              <DbSource ConnectionRef="ConnectionString (MySettings)" DbObjectName="MGTBDG2020.dbo.LapPengembalianBarang" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+              <DbSource ConnectionRef="ConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
                 <SelectCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="true">
-                    <CommandText> SELECT "LapPengembalianBarang"."NmCust", "LapPengembalianBarang"."NmBrg", "LapPengembalianBarang"."Qty", "LapPengembalianBarang"."Keterangan", "LapPengembalianBarang"."NoFaktur", "LapPengembalianBarang"."Sales", "LapPengembalianBarang"."Driver", "LapPengembalianBarang"."Tanggal", "LapPengembalianBarang"."Keterangan2"
- FROM   "MGTBDG2020"."dbo"."LapPengembalianBarang" "LapPengembalianBarang"
- ORDER BY "LapPengembalianBarang"."NmCust"</CommandText>
+                    <CommandText>SELECT dbo.tblGdRetur.NoBukti, dbo.tblGdRetur.NmCust, dbo.tblGdReturDetail.NmBrg, dbo.tblGdReturDetail.Qty, dbo.tblGdReturDetail.Keterangan, dbo.tblGdRetur.NoFaktur, dbo.tblGdRetur.Sales, dbo.tblGdRetur.Driver, 
+                  dbo.tblGdRetur.Tanggal, dbo.tblGdReturDetail.Keterangan2, dbo.tblGdRetur.Picker
+FROM     dbo.tblGdRetur INNER JOIN
+                  dbo.tblGdReturDetail ON dbo.tblGdRetur.NoBukti = dbo.tblGdReturDetail.NoBukti
+ORDER BY dbo.tblGdRetur.NmCust</CommandText>
                     <Parameters />
                   </DbCommand>
                 </SelectCommand>
@@ -112,6 +114,28 @@ FROM            salesorder INNER JOIN
               <Mapping SourceColumn="Driver" DataSetColumn="Driver" />
               <Mapping SourceColumn="Tanggal" DataSetColumn="Tanggal" />
               <Mapping SourceColumn="Keterangan2" DataSetColumn="Keterangan2" />
+              <Mapping SourceColumn="NoBukti" DataSetColumn="NoBukti" />
+              <Mapping SourceColumn="Picker" DataSetColumn="Picker" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataLabelTableAdapter" GeneratorDataComponentClassName="DataLabelTableAdapter" Name="DataLabel" UserDataComponentName="DataLabelTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select tblbeli.NoBukti,KdBrg,NmBrg,Qty,Tglexpired from tblBeli inner join tblBeliDtl on tblBeliDtl.NoBukti = tblBeli.NoBukti</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="NoBukti" DataSetColumn="NoBukti" />
+              <Mapping SourceColumn="KdBrg" DataSetColumn="KdBrg" />
+              <Mapping SourceColumn="NmBrg" DataSetColumn="NmBrg" />
+              <Mapping SourceColumn="Qty" DataSetColumn="Qty" />
+              <Mapping SourceColumn="Tglexpired" DataSetColumn="Tglexpired" />
             </Mappings>
             <Sources />
           </TableAdapter>
@@ -321,6 +345,49 @@ FROM            salesorder INNER JOIN
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
+              <xs:element name="NoBukti" msprop:Generator_ColumnVarNameInTable="columnNoBukti" msprop:Generator_ColumnPropNameInRow="NoBukti" msprop:Generator_ColumnPropNameInTable="NoBuktiColumn" msprop:Generator_UserColumnName="NoBukti">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Picker" msprop:Generator_ColumnVarNameInTable="columnPicker" msprop:Generator_ColumnPropNameInRow="Picker" msprop:Generator_ColumnPropNameInTable="PickerColumn" msprop:Generator_UserColumnName="Picker" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataLabel" msprop:Generator_TableClassName="DataLabelDataTable" msprop:Generator_TableVarName="tableDataLabel" msprop:Generator_RowChangedName="DataLabelRowChanged" msprop:Generator_TablePropName="DataLabel" msprop:Generator_RowDeletingName="DataLabelRowDeleting" msprop:Generator_RowChangingName="DataLabelRowChanging" msprop:Generator_RowEvHandlerName="DataLabelRowChangeEventHandler" msprop:Generator_RowDeletedName="DataLabelRowDeleted" msprop:Generator_RowClassName="DataLabelRow" msprop:Generator_UserTableName="DataLabel" msprop:Generator_RowEvArgName="DataLabelRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NoBukti" msprop:Generator_ColumnVarNameInTable="columnNoBukti" msprop:Generator_ColumnPropNameInRow="NoBukti" msprop:Generator_ColumnPropNameInTable="NoBuktiColumn" msprop:Generator_UserColumnName="NoBukti">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KdBrg" msprop:Generator_ColumnVarNameInTable="columnKdBrg" msprop:Generator_ColumnPropNameInRow="KdBrg" msprop:Generator_ColumnPropNameInTable="KdBrgColumn" msprop:Generator_UserColumnName="KdBrg" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NmBrg" msprop:Generator_ColumnVarNameInTable="columnNmBrg" msprop:Generator_ColumnPropNameInRow="NmBrg" msprop:Generator_ColumnPropNameInTable="NmBrgColumn" msprop:Generator_UserColumnName="NmBrg" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Qty" msprop:Generator_ColumnVarNameInTable="columnQty" msprop:Generator_ColumnPropNameInRow="Qty" msprop:Generator_ColumnPropNameInTable="QtyColumn" msprop:Generator_UserColumnName="Qty" type="xs:decimal" />
+              <xs:element name="Tglexpired" msprop:Generator_ColumnVarNameInTable="columnTglexpired" msprop:Generator_ColumnPropNameInRow="Tglexpired" msprop:Generator_ColumnPropNameInTable="TglexpiredColumn" msprop:Generator_UserColumnName="Tglexpired" type="xs:dateTime" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>

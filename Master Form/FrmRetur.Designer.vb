@@ -34,6 +34,8 @@ Partial Class FrmRetur
         Me.CBCust = New System.Windows.Forms.ComboBox()
         Me.txtNoBukti = New System.Windows.Forms.TextBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.txtPicker = New System.Windows.Forms.TextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
         Me.txtNoFak = New System.Windows.Forms.TextBox()
         Me.txtSales = New System.Windows.Forms.TextBox()
         Me.txtDriver = New System.Windows.Forms.TextBox()
@@ -102,7 +104,7 @@ Partial Class FrmRetur
         Me.GroupBox1.Controls.Add(Me.Label3)
         Me.GroupBox1.Location = New System.Drawing.Point(12, 12)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(453, 105)
+        Me.GroupBox1.Size = New System.Drawing.Size(453, 144)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         '
@@ -111,7 +113,7 @@ Partial Class FrmRetur
         Me.txtKdCust.Location = New System.Drawing.Point(100, 46)
         Me.txtKdCust.Name = "txtKdCust"
         Me.txtKdCust.Size = New System.Drawing.Size(100, 20)
-        Me.txtKdCust.TabIndex = 17
+        Me.txtKdCust.TabIndex = 1
         '
         'BtCari
         '
@@ -129,14 +131,14 @@ Partial Class FrmRetur
         Me.DTTanggal.Location = New System.Drawing.Point(298, 19)
         Me.DTTanggal.Name = "DTTanggal"
         Me.DTTanggal.Size = New System.Drawing.Size(126, 20)
-        Me.DTTanggal.TabIndex = 4
+        Me.DTTanggal.TabIndex = 3
         '
         'txtCust
         '
         Me.txtCust.Location = New System.Drawing.Point(100, 72)
         Me.txtCust.Name = "txtCust"
         Me.txtCust.Size = New System.Drawing.Size(324, 20)
-        Me.txtCust.TabIndex = 3
+        Me.txtCust.TabIndex = 2
         '
         'CBCust
         '
@@ -147,7 +149,7 @@ Partial Class FrmRetur
         Me.CBCust.Location = New System.Drawing.Point(298, 45)
         Me.CBCust.Name = "CBCust"
         Me.CBCust.Size = New System.Drawing.Size(100, 21)
-        Me.CBCust.TabIndex = 2
+        Me.CBCust.TabIndex = 4
         Me.CBCust.Visible = False
         '
         'txtNoBukti
@@ -156,10 +158,12 @@ Partial Class FrmRetur
         Me.txtNoBukti.Name = "txtNoBukti"
         Me.txtNoBukti.ReadOnly = True
         Me.txtNoBukti.Size = New System.Drawing.Size(100, 20)
-        Me.txtNoBukti.TabIndex = 1
+        Me.txtNoBukti.TabIndex = 0
         '
         'GroupBox2
         '
+        Me.GroupBox2.Controls.Add(Me.txtPicker)
+        Me.GroupBox2.Controls.Add(Me.Label8)
         Me.GroupBox2.Controls.Add(Me.txtNoFak)
         Me.GroupBox2.Controls.Add(Me.txtSales)
         Me.GroupBox2.Controls.Add(Me.txtDriver)
@@ -168,9 +172,27 @@ Partial Class FrmRetur
         Me.GroupBox2.Controls.Add(Me.Label7)
         Me.GroupBox2.Location = New System.Drawing.Point(471, 12)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(249, 105)
+        Me.GroupBox2.Size = New System.Drawing.Size(249, 144)
         Me.GroupBox2.TabIndex = 5
         Me.GroupBox2.TabStop = False
+        '
+        'txtPicker
+        '
+        Me.txtPicker.Location = New System.Drawing.Point(93, 98)
+        Me.txtPicker.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtPicker.Name = "txtPicker"
+        Me.txtPicker.Size = New System.Drawing.Size(150, 20)
+        Me.txtPicker.TabIndex = 3
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(34, 101)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(52, 13)
+        Me.Label8.TabIndex = 11
+        Me.Label8.Text = "PICKER :"
         '
         'txtNoFak
         '
@@ -178,21 +200,21 @@ Partial Class FrmRetur
         Me.txtNoFak.Location = New System.Drawing.Point(93, 19)
         Me.txtNoFak.Name = "txtNoFak"
         Me.txtNoFak.Size = New System.Drawing.Size(85, 20)
-        Me.txtNoFak.TabIndex = 6
+        Me.txtNoFak.TabIndex = 0
         '
         'txtSales
         '
         Me.txtSales.Location = New System.Drawing.Point(93, 45)
         Me.txtSales.Name = "txtSales"
         Me.txtSales.Size = New System.Drawing.Size(150, 20)
-        Me.txtSales.TabIndex = 7
+        Me.txtSales.TabIndex = 1
         '
         'txtDriver
         '
         Me.txtDriver.Location = New System.Drawing.Point(93, 72)
         Me.txtDriver.Name = "txtDriver"
         Me.txtDriver.Size = New System.Drawing.Size(150, 20)
-        Me.txtDriver.TabIndex = 8
+        Me.txtDriver.TabIndex = 2
         '
         'Label5
         '
@@ -225,62 +247,62 @@ Partial Class FrmRetur
         '
         Me.DGV.BackgroundColor = System.Drawing.SystemColors.ActiveCaption
         Me.DGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DGV.Location = New System.Drawing.Point(12, 123)
+        Me.DGV.Location = New System.Drawing.Point(12, 162)
         Me.DGV.Name = "DGV"
         Me.DGV.Size = New System.Drawing.Size(708, 224)
-        Me.DGV.TabIndex = 9
+        Me.DGV.TabIndex = 0
         '
         'BtBaru
         '
-        Me.BtBaru.Location = New System.Drawing.Point(240, 353)
+        Me.BtBaru.Location = New System.Drawing.Point(240, 392)
         Me.BtBaru.Name = "BtBaru"
         Me.BtBaru.Size = New System.Drawing.Size(75, 23)
-        Me.BtBaru.TabIndex = 10
+        Me.BtBaru.TabIndex = 1
         Me.BtBaru.Text = "Baru"
         Me.BtBaru.UseVisualStyleBackColor = True
         '
         'BtSimpan
         '
-        Me.BtSimpan.Location = New System.Drawing.Point(321, 353)
+        Me.BtSimpan.Location = New System.Drawing.Point(321, 392)
         Me.BtSimpan.Name = "BtSimpan"
         Me.BtSimpan.Size = New System.Drawing.Size(75, 23)
-        Me.BtSimpan.TabIndex = 11
+        Me.BtSimpan.TabIndex = 2
         Me.BtSimpan.Text = "Simpan"
         Me.BtSimpan.UseVisualStyleBackColor = True
         '
         'BtEdit
         '
-        Me.BtEdit.Location = New System.Drawing.Point(402, 353)
+        Me.BtEdit.Location = New System.Drawing.Point(402, 392)
         Me.BtEdit.Name = "BtEdit"
         Me.BtEdit.Size = New System.Drawing.Size(75, 23)
-        Me.BtEdit.TabIndex = 12
+        Me.BtEdit.TabIndex = 3
         Me.BtEdit.Text = "Edit"
         Me.BtEdit.UseVisualStyleBackColor = True
         '
         'BtHapus
         '
-        Me.BtHapus.Location = New System.Drawing.Point(483, 353)
+        Me.BtHapus.Location = New System.Drawing.Point(483, 392)
         Me.BtHapus.Name = "BtHapus"
         Me.BtHapus.Size = New System.Drawing.Size(75, 23)
-        Me.BtHapus.TabIndex = 13
+        Me.BtHapus.TabIndex = 4
         Me.BtHapus.Text = "Hapus"
         Me.BtHapus.UseVisualStyleBackColor = True
         '
         'BtKembali
         '
-        Me.BtKembali.Location = New System.Drawing.Point(564, 353)
+        Me.BtKembali.Location = New System.Drawing.Point(564, 392)
         Me.BtKembali.Name = "BtKembali"
         Me.BtKembali.Size = New System.Drawing.Size(75, 23)
-        Me.BtKembali.TabIndex = 14
+        Me.BtKembali.TabIndex = 5
         Me.BtKembali.Text = "Kembali"
         Me.BtKembali.UseVisualStyleBackColor = True
         '
         'BtKeluar
         '
-        Me.BtKeluar.Location = New System.Drawing.Point(645, 353)
+        Me.BtKeluar.Location = New System.Drawing.Point(645, 392)
         Me.BtKeluar.Name = "BtKeluar"
         Me.BtKeluar.Size = New System.Drawing.Size(75, 23)
-        Me.BtKeluar.TabIndex = 15
+        Me.BtKeluar.TabIndex = 6
         Me.BtKeluar.Text = "Keluar"
         Me.BtKeluar.UseVisualStyleBackColor = True
         '
@@ -288,7 +310,7 @@ Partial Class FrmRetur
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(732, 389)
+        Me.ClientSize = New System.Drawing.Size(732, 426)
         Me.Controls.Add(Me.BtKeluar)
         Me.Controls.Add(Me.BtKembali)
         Me.Controls.Add(Me.BtHapus)
@@ -336,4 +358,6 @@ Partial Class FrmRetur
     Friend WithEvents BtKembali As System.Windows.Forms.Button
     Friend WithEvents BtKeluar As System.Windows.Forms.Button
     Friend WithEvents txtKdCust As System.Windows.Forms.TextBox
+    Friend WithEvents txtPicker As System.Windows.Forms.TextBox
+    Friend WithEvents Label8 As System.Windows.Forms.Label
 End Class

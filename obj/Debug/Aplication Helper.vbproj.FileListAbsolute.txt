@@ -1825,3 +1825,4 @@ D:\Github\MasuyaAPP\bin\Debug\Masuya.pdb
 D:\Github\MasuyaAPP\bin\Debug\Masuya.xml
 D:\Github\MasuyaAPP\obj\Debug\Masuya.exe.manifest
 D:\Github\MasuyaAPP\obj\Debug\Masuya.application
+D:\ProjectVB\MasuyaAPP\obj\Debug\Aplication_Helper.FrmReportLabel.resources

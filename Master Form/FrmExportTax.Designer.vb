@@ -49,6 +49,7 @@ Partial Class FrmExportTax
         Me.BtImport = New System.Windows.Forms.Button()
         Me.BtProses = New System.Windows.Forms.Button()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
+        Me.btnExport = New System.Windows.Forms.Button()
         CType(Me.DGV, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -67,23 +68,24 @@ Partial Class FrmExportTax
         Me.ListView1.GridLines = True
         Me.ListView1.Location = New System.Drawing.Point(15, 275)
         Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(665, 289)
+        Me.ListView1.Size = New System.Drawing.Size(666, 289)
         Me.ListView1.TabIndex = 1
         Me.ListView1.UseCompatibleStateImageBehavior = False
         Me.ListView1.View = System.Windows.Forms.View.Details
         '
         'BtCopy
         '
-        Me.BtCopy.Location = New System.Drawing.Point(121, 249)
+        Me.BtCopy.Location = New System.Drawing.Point(202, 246)
         Me.BtCopy.Name = "BtCopy"
         Me.BtCopy.Size = New System.Drawing.Size(75, 23)
         Me.BtCopy.TabIndex = 2
         Me.BtCopy.Text = "Copy"
         Me.BtCopy.UseVisualStyleBackColor = True
+        Me.BtCopy.Visible = False
         '
         'BtClear
         '
-        Me.BtClear.Location = New System.Drawing.Point(605, 246)
+        Me.BtClear.Location = New System.Drawing.Point(606, 246)
         Me.BtClear.Name = "BtClear"
         Me.BtClear.Size = New System.Drawing.Size(75, 23)
         Me.BtClear.TabIndex = 3
@@ -124,11 +126,21 @@ Partial Class FrmExportTax
         '
         Me.OpenFileDialog1.FileName = "OpenFileDialog1"
         '
+        'btnExport
+        '
+        Me.btnExport.Location = New System.Drawing.Point(121, 246)
+        Me.btnExport.Name = "btnExport"
+        Me.btnExport.Size = New System.Drawing.Size(75, 23)
+        Me.btnExport.TabIndex = 7
+        Me.btnExport.Text = "Export"
+        Me.btnExport.UseVisualStyleBackColor = True
+        '
         'FrmExportTax
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(690, 576)
+        Me.ClientSize = New System.Drawing.Size(697, 576)
+        Me.Controls.Add(Me.btnExport)
         Me.Controls.Add(Me.BtProses)
         Me.Controls.Add(Me.BtImport)
         Me.Controls.Add(Me.DGV)
@@ -171,4 +183,5 @@ Partial Class FrmExportTax
     Friend WithEvents BtImport As System.Windows.Forms.Button
     Friend WithEvents BtProses As System.Windows.Forms.Button
     Friend WithEvents OpenFileDialog1 As System.Windows.Forms.OpenFileDialog
+    Friend WithEvents btnExport As System.Windows.Forms.Button
 End Class

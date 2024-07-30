@@ -18,6 +18,10 @@ Represents the strongly named DataTable class.
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
+</member><member name="T:Aplication_Helper.DataSet1.DataLabelDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
 </member><member name="T:Aplication_Helper.DataSet1.DataTable1Row">
 	<summary>
 Represents strongly named DataRow class.
@@ -30,6 +34,10 @@ Represents strongly named DataRow class.
 	<summary>
 Represents strongly named DataRow class.
 </summary>
+</member><member name="T:Aplication_Helper.DataSet1.DataLabelRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
 </member><member name="T:Aplication_Helper.DataSet1.DataTable1RowChangeEvent">
 	<summary>
 Row event argument class
@@ -39,6 +47,10 @@ Row event argument class
 Row event argument class
 </summary>
 </member><member name="T:Aplication_Helper.DataSet1.LapPengembalianBarangRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Aplication_Helper.DataSet1.DataLabelRowChangeEvent">
 	<summary>
 Row event argument class
 </summary>
@@ -55,6 +67,10 @@ Represents the connection and commands used to retrieve and save data.
 Represents the connection and commands used to retrieve and save data.
 </summary>
 </member><member name="T:Aplication_Helper.DataSet1TableAdapters.LapPengembalianBarangTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Aplication_Helper.DataSet1TableAdapters.DataLabelTableAdapter">
 	<summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>

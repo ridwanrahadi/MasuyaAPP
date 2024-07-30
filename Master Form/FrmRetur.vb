@@ -30,6 +30,7 @@ Public Class FrmRetur
         txtNoFak.Enabled = False
         txtDriver.Enabled = False
         txtSales.Enabled = False
+        txtPicker.Enabled = False
         DTTanggal.Enabled = False
     End Sub
     Sub PengaturanDGV()
@@ -50,6 +51,7 @@ Public Class FrmRetur
         txtNoBukti.Text = ""
         txtDriver.Text = ""
         txtSales.Text = ""
+        txtPicker.Text = ""
         DGV.DataSource = Nothing
         'CBCust.SelectedIndex = -1
     End Sub
@@ -70,6 +72,7 @@ Public Class FrmRetur
                 txtNoFak.Enabled = False
                 txtDriver.Enabled = False
                 txtSales.Enabled = False
+                txtPicker.Enabled = False
                 DTTanggal.Enabled = False
             Case False
                 BtBaru.Enabled = False
@@ -86,6 +89,7 @@ Public Class FrmRetur
                 txtNoFak.Enabled = True
                 txtDriver.Enabled = True
                 txtSales.Enabled = True
+                txtPicker.Enabled = True
                 DTTanggal.Enabled = True
         End Select
     End Sub
@@ -168,7 +172,7 @@ Public Class FrmRetur
 
     Private Sub txtDriver_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtDriver.KeyPress
         If e.KeyChar = Chr(13) Then
-            DGV.Focus()
+            txtPicker.Focus()
         End If
     End Sub
 
@@ -226,7 +230,7 @@ Public Class FrmRetur
             Else
                 txtNoBukti.Text = Kode.Generate("tblGdRetur", "NoBukti")
                 Try
-                    SQl = "Insert into tblGdRetur values('" & txtNoBukti.Text & "','" & txtKdCust.Text & "','" & rep(txtCust.Text) & "','" & DTTanggal.Text & "','" & txtNoFak.Text & "','" & txtSales.Text & "','" & txtDriver.Text & "')"
+                    SQl = "Insert into tblGdRetur values('" & txtNoBukti.Text & "','" & txtKdCust.Text & "','" & rep(txtCust.Text) & "','" & DTTanggal.Text & "','" & txtNoFak.Text & "','" & txtSales.Text & "','" & txtDriver.Text & "','" & txtPicker.Text & "')"
                     Proses.ExecuteNonQuery(SQl)
                     For baris As Integer = 0 To DGV.RowCount - 2
                         SQl = "Insert into tblGdReturDetail values('" & txtNoBukti.Text & "','" & DGV.Rows(baris).Cells(2).Value & "','" & rep(DGV.Rows(baris).Cells(3).Value) & "','" & DGV.Rows(baris).Cells(4).Value & "','" & DGV.Rows(baris).Cells(5).Value & "','" & DGV.Rows(baris).Cells(6).Value & "','" & DGV.Rows(baris).Cells(7).Value & "','" & DGV.Rows(baris).Cells(8).Value & "')"
@@ -342,4 +346,9 @@ Public Class FrmRetur
 
     End Sub
 
+    Private Sub txtPicker_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtPicker.KeyPress
+        If e.KeyChar = Chr(13) Then
+            DGV.Focus()
+        End If
+    End Sub
 End Class
